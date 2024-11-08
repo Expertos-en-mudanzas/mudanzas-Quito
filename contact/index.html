@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<!--Utilizing MainLayout for the outer layout of the page, and defining meta for SEO purposes--><!--
+This is the main structure for the page.
+We set the language of the page to English and add classes for scrollbar and scroll behavior.
+-->
+<html
+  lang="es"
+  class="scrollbar-hide lenis lenis-smooth scroll-pt-16 astro-ouamjn2i"
+>
+  <head>
+    <!-- Adding metadata to the HTML document -->
+    <!-- Inject structured data into the page if provided. This data is formatted as JSON-LD, a method recommended by Google for structured data pass:
+     https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data -->
+    <script type="application/ld+json">
+      {
+        "@context": "#",
+        "@type": "WebPage",
+        "@id": "#",
+        "url": "#",
+        "name": "cantactos | Expertos en mudanzas",
+        "description": "¿Tienes preguntas o quieres hablar sobre una mudanza? Comunícate con nosotros y diseñemos la solución perfecta con nuestras herramientas y servicios.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "url": "#",
+          "name": "expertos en mudanzas",
+          "description": "Expertos en mudanzas, un servicio excepcional en la industria de las mudanzas en Ecuador."
+        },
+        "inLanguage": "es-Es"
+      }
+    </script>
+    <!-- Define the character set, description, author, and viewport settings -->
+    <meta charset="utf-8" />
+    <meta
+      content="Mudanzas Quito - Empresa de mudanzas profesionales. Ofrecemos servicios de embalaje, transporte y montaje de muebles. Mudanzas locales, nacionales e internacionales. ¡Cotiza ahora y disfruta de una mudanza sin estrés!"
+      name="description"
+    />
+    <meta name="DevPsyco" content="DevPsyco" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="canonical" href="expertos-en-mudanzas.github.io/expertos-ec/contact/" />
+    <link rel="alternate" hreflang="es" href="expertos-en-mudanzas.github.io/expertos-ec/contact/" />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="expertos-en-mudanzas.github.io/expertos-ec/contact/"
+    />
+    <!-- Facebook Meta Tags -->
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:url" content="expertos-en-mudanzas.github.io/expertos-ec/" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Expertos en Mudanzas: : empresa de mudanzas profesionales."
+    />
+    <meta property="og:site_name" content="Expertos en Mudanzas" />
+    <meta
+      property="og:description"
+      content="Mudanzas Quito - Empresa de mudanzas profesionales. Ofrecemos servicios de embalaje, transporte y montaje de muebles. Mudanzas locales, nacionales e internacionales. ¡Cotiza ahora y disfruta de una mudanza sin estrés!"
+    />
+    <meta
+      property="og:image"
+      content="expertos-en-mudanzas.github.io/expertos-ec/recursos/logo-completo.BBo7OkdA_1WaPjl.webp"
+    />
+    <meta content="1200" property="og:image:width" />
+    <meta content="600" property="og:image:height" />
+    <meta content="image/png" property="og:image:type" />
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="expertos-en-mudanzas.github.io/expertos-ec/" />
+    <meta property="twitter:url" content="expertos-en-mudanzas.github.io/expertos-ec/" />
+    <meta
+      name="twitter:title"
+      content="Expertos en Mudanzas: : empresa de mudanzas profesionales."
+    />
+    <meta
+      name="twitter:description"
+      content="Mudanzas Quito - Empresa de mudanzas profesionales. Ofrecemos servicios de embalaje, transporte y montaje de muebles. Mudanzas locales, nacionales e internacionales. ¡Cotiza ahora y disfruta de una mudanza sin estrés!"
+    />
+    <meta
+      name="twitter:image"
+      content="expertos-en-mudanzas.github.io/expertos-ec/recursos/logo-completo.BBo7OkdA_1WaPjl.webp"
+    />
+    <!-- Links to the webmanifest and sitemap -->
+    <link rel="manifest" href="/manifest.json" />
+    <!-- https://docs.astro.build/en/guides/integrations-guide/sitemap/ -->
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <!-- Links for favicons -->
+    <link href="" rel="icon" sizes="any" type="image/x-icon" />
+    <link
+      href="../recursos/caja-logo.BWhjgQv4_Z1rMwmU.svg"
+      rel="icon"
+      type="image/svg+xml"
+      sizes="any"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link href="../recursos/caja-logo.BWhjgQv4_y4lu9.svg" rel="apple-touch-icon" />
+    <link href="../recursos/caja-logo.BWhjgQv4_y4lu9.svg" rel="shortcut icon" />
+    <!-- Set theme color -->
+    <meta name="theme-color" content="#facc15" />
+    <!-- Define the title of the page -->
+    <title>Expertos en Mudanzas</title>
+    <script>
+      // Script to handle dark mode. It will check if the theme is stored in localStorage or if dark theme is preferred by system settings
+      if (
+        localStorage.getItem("hs_theme") === "dark" ||
+        (!("hs_theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
+    <script
+      type="module"
+      src="../recursos/MainLayout.astro_astro_type_script_index_0_lang.BSGGsikG.js"
+    ></script>
+    <style>
+      html.lenis,
+      html.lenis body {
+        height: auto;
+      }
+      .lenis.lenis-smooth {
+        scroll-behavior: auto !important;
+      }
+      .lenis.lenis-smooth [data-lenis-prevent] {
+        overscroll-behavior: contain;
+      }
+      .lenis.lenis-stopped {
+        overflow: hidden;
+      }
+      .lenis.lenis-scrolling iframe {
+        pointer-events: none;
+      }
+    </style>
+    <link rel="stylesheet" href="../recursos/index.CI8v3eFy.css" />
+    <style>
+      .scrollbar-hide:where(.astro-ouamjn2i)::-webkit-scrollbar {
+        display: none;
+      }
+      .scrollbar-hide:where(.astro-ouamjn2i) {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+    <script type="module" src="../recursos/page.C1i_5bqm.js"></script>
+  </head>
+  <body
+    class="bg-neutral-200 selection:bg-yellow-400 selection:text-neutral-700 dark:bg-neutral-800 astro-ouamjn2i"
+  >
+    <!--
+    Setting up the main structure of the page.
+    The Navbar is placed at the top, with a slot for the main content and FooterSection at the bottom.
+    -->
+    <div class="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8 astro-ouamjn2i">
+      <!-- Main header component -->
+      <header
+        class="sticky inset-x-0 top-4 z-50 flex w-full flex-wrap text-sm md:flex-nowrap md:justify-start"
+      >
+        <!-- Navigation container -->
+        <nav
+          class="relative mx-2 w-full rounded-[36px] border border-yellow-100/40 bg-yellow-50/60 px-4 py-3 backdrop-blur-md dark:border-neutral-700/40 dark:bg-neutral-800/80 dark:backdrop-blur-md md:flex md:items-center md:justify-between md:px-6 md:py-0 lg:px-8 xl:mx-auto"
+          aria-label="Global"
+        >
+          <div class="flex items-center justify-between">
+            <!-- Brand logo -->
+            <a
+              class="flex-none rounded-lg text-xl font-bold outline-none ring-zinc-500 focus-visible:ring dark:ring-zinc-200 dark:focus:outline-none"
+              id="home"
+              href="../index.html"
+              aria-label="Brand"
+            >
+              <!--?xml version="1.0" encoding="UTF-8" standalone="no"?--><!-- Created with Inkscape (http://www.inkscape.org/) --><svg
+                viewBox="0 0 2488.0703 356.50812"
+                height="auto"
+                width="200px"
+                id="svg3248"
+                version="1.1"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <style id="style22"></style>
+                <defs id="defs3252">
+                  <linearGradient id="linearGradient3206">
+                    <stop
+                      style="stop-color: #000000; stop-opacity: 1"
+                      offset="0"
+                      id="stop3204"
+                    ></stop>
+                  </linearGradient>
+                  <pattern
+                    patternUnits="userSpaceOnUse"
+                    width="62.323503"
+                    height="68.009218"
+                    patternTransform="translate(347.91891,152.77532)"
+                    preserveAspectRatio="xMidYMid"
+                    id="pattern100"
+                  >
+                    <g id="g99" transform="translate(-347.91891,-152.77532)">
+                      <path
+                        id="path66"
+                        style="
+                          fill: #0f969c;
+                          stroke: none;
+                          stroke-width: 0.377953;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                        "
+                        d="m 288.8125,168.83008 c -0.50594,-0.0104 -1.0116,0.0151 -1.50976,0.0742 -2.09264,0.25254 -3.9803,1.05074 -5.53516,2.04297 -3.01928,1.91635 -4.83585,4.47765 -5.71875,6.3125 -0.002,0.003 -0.002,0.006 -0.004,0.01 -0.39698,-0.15862 -0.82054,-0.24015 -1.24804,-0.24023 -1.85853,9e-5 -3.36514,1.5067 -3.36524,3.36523 9e-5,1.85853 1.50671,3.36515 3.36524,3.36524 1.85853,-10e-5 3.36514,-1.50671 3.36523,-3.36524 -9e-5,-1.16284 -0.60048,-2.24324 -1.58789,-2.85742 1.03398,-1.69553 2.78794,-3.88513 5.76758,-5.6543 1.4754,-0.87061 3.22407,-1.56654 5.09765,-1.75781 1.76939,-0.18444 3.63073,0.11095 5.28516,0.9043 0.037,0.0175 0.0745,0.0347 0.11133,0.0527 1.51414,0.7407 2.83422,1.9377 4.10351,3.13086 1.57817,1.49506 3.04048,3.04162 4.48633,4.38477 1.74435,1.62693 3.25597,2.79534 4.91016,3.60351 0.882,0.43227 1.68392,0.67482 2.38867,0.80469 0.13162,1.75198 1.58879,3.10793 3.3457,3.11328 1.85853,-9e-5 3.36514,-1.5067 3.36524,-3.36523 -9e-5,-1.85853 -1.50671,-3.36515 -3.36524,-3.36524 -1.70029,0.003 -3.13158,1.27297 -3.33593,2.96094 -0.60917,-0.18508 -1.28922,-0.46064 -2.01758,-0.87305 -1.51686,-0.86042 -2.85391,-2.01346 -4.53321,-3.66992 -1.37217,-1.35921 -2.79304,-2.93327 -4.38867,-4.48633 -1.2645,-1.24034 -2.6766,-2.51662 -4.39648,-3.37695 -0.0417,-0.0208 -0.0829,-0.0402 -0.125,-0.0606 -1.41242,-0.67389 -2.94311,-1.02148 -4.46094,-1.05273 z"
+                        transform="translate(92.282509,21.531068)"
+                      ></path>
+                      <path
+                        transform="rotate(-60,351.58586,96.095397)"
+                        style="
+                          fill: #0f969c;
+                          stroke: none;
+                          stroke-width: 0.377953;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                        "
+                        id="path69"
+                        d="m 288.8125,168.83008 c -0.50594,-0.0104 -1.0116,0.0151 -1.50976,0.0742 -2.09264,0.25254 -3.9803,1.05074 -5.53516,2.04297 -3.01928,1.91635 -4.83585,4.47765 -5.71875,6.3125 -0.002,0.003 -0.002,0.006 -0.004,0.01 -0.39698,-0.15862 -0.82054,-0.24015 -1.24804,-0.24023 -1.85853,9e-5 -3.36514,1.5067 -3.36524,3.36523 9e-5,1.85853 1.50671,3.36515 3.36524,3.36524 1.85853,-10e-5 3.36514,-1.50671 3.36523,-3.36524 -9e-5,-1.16284 -0.60048,-2.24324 -1.58789,-2.85742 1.03398,-1.69553 2.78794,-3.88513 5.76758,-5.6543 1.4754,-0.87061 3.22407,-1.56654 5.09765,-1.75781 1.76939,-0.18444 3.63073,0.11095 5.28516,0.9043 0.037,0.0175 0.0745,0.0347 0.11133,0.0527 1.51414,0.7407 2.83422,1.9377 4.10351,3.13086 1.57817,1.49506 3.04048,3.04162 4.48633,4.38477 1.74435,1.62693 3.25597,2.79534 4.91016,3.60351 0.882,0.43227 1.68392,0.67482 2.38867,0.80469 0.13162,1.75198 1.58879,3.10793 3.3457,3.11328 1.85853,-9e-5 3.36514,-1.5067 3.36524,-3.36523 -9e-5,-1.85853 -1.50671,-3.36515 -3.36524,-3.36524 -1.70029,0.003 -3.13158,1.27297 -3.33593,2.96094 -0.60917,-0.18508 -1.28922,-0.46064 -2.01758,-0.87305 -1.51686,-0.86042 -2.85391,-2.01346 -4.53321,-3.66992 -1.37217,-1.35921 -2.79304,-2.93327 -4.38867,-4.48633 -1.2645,-1.24034 -2.6766,-2.51662 -4.39648,-3.37695 -0.0417,-0.0208 -0.0829,-0.0402 -0.125,-0.0606 -1.41242,-0.67389 -2.94311,-1.02148 -4.46094,-1.05273 z"
+                      ></path>
+                      <path
+                        transform="rotate(-120,339.15489,149.37473)"
+                        style="
+                          fill: #0f969c;
+                          stroke: none;
+                          stroke-width: 0.377953;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                        "
+                        id="path70"
+                        d="m 288.8125,168.83008 c -0.50594,-0.0104 -1.0116,0.0151 -1.50976,0.0742 -2.09264,0.25254 -3.9803,1.05074 -5.53516,2.04297 -3.01928,1.91635 -4.83585,4.47765 -5.71875,6.3125 -0.002,0.003 -0.002,0.006 -0.004,0.01 -0.39698,-0.15862 -0.82054,-0.24015 -1.24804,-0.24023 -1.85853,9e-5 -3.36514,1.5067 -3.36524,3.36523 9e-5,1.85853 1.50671,3.36515 3.36524,3.36524 1.85853,-10e-5 3.36514,-1.50671 3.36523,-3.36524 -9e-5,-1.16284 -0.60048,-2.24324 -1.58789,-2.85742 1.03398,-1.69553 2.78794,-3.88513 5.76758,-5.6543 1.4754,-0.87061 3.22407,-1.56654 5.09765,-1.75781 1.76939,-0.18444 3.63073,0.11095 5.28516,0.9043 0.037,0.0175 0.0745,0.0347 0.11133,0.0527 1.51414,0.7407 2.83422,1.9377 4.10351,3.13086 1.57817,1.49506 3.04048,3.04162 4.48633,4.38477 1.74435,1.62693 3.25597,2.79534 4.91016,3.60351 0.882,0.43227 1.68392,0.67482 2.38867,0.80469 0.13162,1.75198 1.58879,3.10793 3.3457,3.11328 1.85853,-9e-5 3.36514,-1.5067 3.36524,-3.36523 -9e-5,-1.85853 -1.50671,-3.36515 -3.36524,-3.36524 -1.70029,0.003 -3.13158,1.27297 -3.33593,2.96094 -0.60917,-0.18508 -1.28922,-0.46064 -2.01758,-0.87305 -1.51686,-0.86042 -2.85391,-2.01346 -4.53321,-3.66992 -1.37217,-1.35921 -2.79304,-2.93327 -4.38867,-4.48633 -1.2645,-1.24034 -2.6766,-2.51662 -4.39648,-3.37695 -0.0417,-0.0208 -0.0829,-0.0402 -0.125,-0.0606 -1.41242,-0.67389 -2.94311,-1.02148 -4.46094,-1.05273 z"
+                      ></path>
+                      <path
+                        transform="rotate(180,332.9394,176.01439)"
+                        style="
+                          fill: #0f969c;
+                          stroke: none;
+                          stroke-width: 0.377953;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                        "
+                        id="path71"
+                        d="m 288.8125,168.83008 c -0.50594,-0.0104 -1.0116,0.0151 -1.50976,0.0742 -2.09264,0.25254 -3.9803,1.05074 -5.53516,2.04297 -3.01928,1.91635 -4.83585,4.47765 -5.71875,6.3125 -0.002,0.003 -0.002,0.006 -0.004,0.01 -0.39698,-0.15862 -0.82054,-0.24015 -1.24804,-0.24023 -1.85853,9e-5 -3.36514,1.5067 -3.36524,3.36523 9e-5,1.85853 1.50671,3.36515 3.36524,3.36524 1.85853,-10e-5 3.36514,-1.50671 3.36523,-3.36524 -9e-5,-1.16284 -0.60048,-2.24324 -1.58789,-2.85742 1.03398,-1.69553 2.78794,-3.88513 5.76758,-5.6543 1.4754,-0.87061 3.22407,-1.56654 5.09765,-1.75781 1.76939,-0.18444 3.63073,0.11095 5.28516,0.9043 0.037,0.0175 0.0745,0.0347 0.11133,0.0527 1.51414,0.7407 2.83422,1.9377 4.10351,3.13086 1.57817,1.49506 3.04048,3.04162 4.48633,4.38477 1.74435,1.62693 3.25597,2.79534 4.91016,3.60351 0.882,0.43227 1.68392,0.67482 2.38867,0.80469 0.13162,1.75198 1.58879,3.10793 3.3457,3.11328 1.85853,-9e-5 3.36514,-1.5067 3.36524,-3.36523 -9e-5,-1.85853 -1.50671,-3.36515 -3.36524,-3.36524 -1.70029,0.003 -3.13158,1.27297 -3.33593,2.96094 -0.60917,-0.18508 -1.28922,-0.46064 -2.01758,-0.87305 -1.51686,-0.86042 -2.85391,-2.01346 -4.53321,-3.66992 -1.37217,-1.35921 -2.79304,-2.93327 -4.38867,-4.48633 -1.2645,-1.24034 -2.6766,-2.51662 -4.39648,-3.37695 -0.0417,-0.0208 -0.0829,-0.0402 -0.125,-0.0606 -1.41242,-0.67389 -2.94311,-1.02148 -4.46094,-1.05273 z"
+                      ></path>
+                      <path
+                        transform="rotate(120,326.72392,202.65406)"
+                        style="
+                          fill: #0f969c;
+                          stroke: none;
+                          stroke-width: 0.377953;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                        "
+                        id="path84"
+                        d="m 288.8125,168.83008 c -0.50594,-0.0104 -1.0116,0.0151 -1.50976,0.0742 -2.09264,0.25254 -3.9803,1.05074 -5.53516,2.04297 -3.01928,1.91635 -4.83585,4.47765 -5.71875,6.3125 -0.002,0.003 -0.002,0.006 -0.004,0.01 -0.39698,-0.15862 -0.82054,-0.24015 -1.24804,-0.24023 -1.85853,9e-5 -3.36514,1.5067 -3.36524,3.36523 9e-5,1.85853 1.50671,3.36515 3.36524,3.36524 1.85853,-10e-5 3.36514,-1.50671 3.36523,-3.36524 -9e-5,-1.16284 -0.60048,-2.24324 -1.58789,-2.85742 1.03398,-1.69553 2.78794,-3.88513 5.76758,-5.6543 1.4754,-0.87061 3.22407,-1.56654 5.09765,-1.75781 1.76939,-0.18444 3.63073,0.11095 5.28516,0.9043 0.037,0.0175 0.0745,0.0347 0.11133,0.0527 1.51414,0.7407 2.83422,1.9377 4.10351,3.13086 1.57817,1.49506 3.04048,3.04162 4.48633,4.38477 1.74435,1.62693 3.25597,2.79534 4.91016,3.60351 0.882,0.43227 1.68392,0.67482 2.38867,0.80469 0.13162,1.75198 1.58879,3.10793 3.3457,3.11328 1.85853,-9e-5 3.36514,-1.5067 3.36524,-3.36523 -9e-5,-1.85853 -1.50671,-3.36515 -3.36524,-3.36524 -1.70029,0.003 -3.13158,1.27297 -3.33593,2.96094 -0.60917,-0.18508 -1.28922,-0.46064 -2.01758,-0.87305 -1.51686,-0.86042 -2.85391,-2.01346 -4.53321,-3.66992 -1.37217,-1.35921 -2.79304,-2.93327 -4.38867,-4.48633 -1.2645,-1.24034 -2.6766,-2.51662 -4.39648,-3.37695 -0.0417,-0.0208 -0.0829,-0.0402 -0.125,-0.0606 -1.41242,-0.67389 -2.94311,-1.02148 -4.46094,-1.05273 z"
+                      ></path>
+                      <path
+                        transform="rotate(60,314.29295,255.93339)"
+                        style="
+                          fill: #0f969c;
+                          stroke: none;
+                          stroke-width: 0.377953;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                        "
+                        id="path99"
+                        d="m 288.8125,168.83008 c -0.50594,-0.0104 -1.0116,0.0151 -1.50976,0.0742 -2.09264,0.25254 -3.9803,1.05074 -5.53516,2.04297 -3.01928,1.91635 -4.83585,4.47765 -5.71875,6.3125 -0.002,0.003 -0.002,0.006 -0.004,0.01 -0.39698,-0.15862 -0.82054,-0.24015 -1.24804,-0.24023 -1.85853,9e-5 -3.36514,1.5067 -3.36524,3.36523 9e-5,1.85853 1.50671,3.36515 3.36524,3.36524 1.85853,-10e-5 3.36514,-1.50671 3.36523,-3.36524 -9e-5,-1.16284 -0.60048,-2.24324 -1.58789,-2.85742 1.03398,-1.69553 2.78794,-3.88513 5.76758,-5.6543 1.4754,-0.87061 3.22407,-1.56654 5.09765,-1.75781 1.76939,-0.18444 3.63073,0.11095 5.28516,0.9043 0.037,0.0175 0.0745,0.0347 0.11133,0.0527 1.51414,0.7407 2.83422,1.9377 4.10351,3.13086 1.57817,1.49506 3.04048,3.04162 4.48633,4.38477 1.74435,1.62693 3.25597,2.79534 4.91016,3.60351 0.882,0.43227 1.68392,0.67482 2.38867,0.80469 0.13162,1.75198 1.58879,3.10793 3.3457,3.11328 1.85853,-9e-5 3.36514,-1.5067 3.36524,-3.36523 -9e-5,-1.85853 -1.50671,-3.36515 -3.36524,-3.36524 -1.70029,0.003 -3.13158,1.27297 -3.33593,2.96094 -0.60917,-0.18508 -1.28922,-0.46064 -2.01758,-0.87305 -1.51686,-0.86042 -2.85391,-2.01346 -4.53321,-3.66992 -1.37217,-1.35921 -2.79304,-2.93327 -4.38867,-4.48633 -1.2645,-1.24034 -2.6766,-2.51662 -4.39648,-3.37695 -0.0417,-0.0208 -0.0829,-0.0402 -0.125,-0.0606 -1.41242,-0.67389 -2.94311,-1.02148 -4.46094,-1.05273 z"
+                      ></path>
+                    </g>
+                  </pattern>
+                  <clipPath clipPathUnits="userSpaceOnUse" id="clipPath67">
+                    <path
+                      d="M 0,788 H 1920 V 0 H 0 Z"
+                      transform="translate(-1036.8672,-494.57321)"
+                      id="path67-7"
+                    ></path>
+                  </clipPath>
+                  <clipPath clipPathUnits="userSpaceOnUse" id="clipPath69">
+                    <path
+                      d="M 0,788 H 1920 V 0 H 0 Z"
+                      transform="translate(-1172.8672,-487.43651)"
+                      id="path69-4"
+                    ></path>
+                  </clipPath>
+                  <clipPath clipPathUnits="userSpaceOnUse" id="clipPath71">
+                    <path
+                      d="M 0,788 H 1920 V 0 H 0 Z"
+                      transform="translate(-949.2295,-442.33111)"
+                      id="path71-4"
+                    ></path>
+                  </clipPath>
+                  <clipPath clipPathUnits="userSpaceOnUse" id="clipPath73">
+                    <path
+                      d="M 0,788 H 1920 V 0 H 0 Z"
+                      transform="translate(-1161.6192,-480.82711)"
+                      id="path73-3"
+                    ></path>
+                  </clipPath>
+                </defs>
+                <g id="layer-MC2" transform="translate(-2620.164,-319.99965)">
+                  <path
+                    id="path63-5"
+                    d="M 83.602984,-76.324266 H 32.063922 V -118.2188 h 54.480469 v -14.35547 H 14.954547 V -4.6875e-5 H 89.497516 V -14.355516 H 32.063922 V -62.156297 H 83.602984 Z M 99.927203,-95.203172 132.1772,-48.585984 98.345172,-4.6875e-5 H 117.4233 L 131.19283,-21.445359 c 3.55078,-5.695313 6.89062,-10.816407 10.03125,-16.523438 h 0.39844 c 3.33984,5.707031 6.49218,11.015625 10.23046,16.523438 L 165.82173,-4.6875e-5 H 185.4858 L 152.0522,-49.171922 l 32.44922,-46.03125 h -18.67969 l -13.38281,20.261719 c -3.14062,5.109375 -6.29297,10.03125 -9.44531,15.738281 h -0.58594 c -3.14062,-5.308594 -6.09375,-10.230469 -9.63281,-15.539062 L 119.19283,-95.203172 Z M 202.20259,38.941359 h 17.1211 v -51.726562 h 0.38672 c 5.70703,9.4453124 16.72265,14.9531249 29.30859,14.9531249 22.42969,0 43.27734,-16.9218749 43.27734,-51.1406249 0,-28.921875 -17.30859,-48.398438 -40.32421,-48.398438 -15.53907,0 -26.75391,6.890625 -33.83204,18.492188 h -0.39843 l -0.78516,-16.324219 h -15.53906 c 0.39844,9.046875 0.78515,18.878906 0.78515,31.078125 z m 17.1211,-94.019531 c 0,-2.355469 0.58594,-4.910156 1.17187,-7.078125 3.35157,-12.984375 14.36719,-21.445312 26.16797,-21.445312 18.29297,0 28.32422,16.335937 28.32422,35.414062 0,21.832031 -10.62891,36.773438 -28.92187,36.773438 -12.38672,0 -22.81641,-8.261719 -25.95704,-20.25 -0.39843,-2.167969 -0.78515,-4.523438 -0.78515,-7.089844 z m 171.32519,10.628906 c 0.1875,-1.769531 0.58594,-4.523437 0.58594,-8.074218 0,-17.496094 -8.26172,-44.847657 -39.33984,-44.847657 -27.73828,0 -44.64844,22.628907 -44.64844,51.339844 0,28.722656 17.50781,48.0000001 46.81641,48.0000001 15.14062,0 25.57031,-3.1523437 31.66406,-5.90625 l -2.95313,-12.3867191 c -6.49218,2.753907 -13.95703,4.910157 -26.35547,4.910157 -17.30859,0 -32.26171,-9.632813 -32.64843,-33.035157 z M 323.9692,-56.847703 c 1.37109,-12 9.04687,-28.125 26.55468,-28.125 19.46485,0 24.1875,17.109375 23.98828,28.125 z M 412.67134,-4.6875e-5 h 17.1211 V -50.753953 c 0,-2.941406 0.38672,-5.695313 0.78515,-8.0625 2.35547,-12.984375 11.01563,-22.21875 23.20313,-22.21875 2.36719,0 4.13672,0.1875 5.90625,0.585937 v -16.324218 c -1.57031,-0.398438 -2.95313,-0.597657 -4.92188,-0.597657 -11.60156,0 -22.03125,8.074219 -26.35546,20.859375 h -0.78516 l -0.58594,-18.691406 h -15.15234 c 0.59765,8.847656 0.78515,18.492188 0.78515,29.707031 z M 485.64986,-118.01958 v 22.816408 h -14.75391 v 13.183594 h 14.75391 v 51.925781 c 0,11.214844 1.76953,19.664063 6.69141,24.7851564 4.125,4.72265623 10.61718,7.2773437 18.67968,7.2773437 6.69141,0 12,-0.98437497 15.35157,-2.36718747 L 525.57564,-13.371141 c -2.15625,0.585938 -5.50781,1.171875 -10.03125,1.171875 -9.63281,0 -12.97266,-6.679687 -12.97266,-18.480468 v -51.339844 h 24.77344 v -13.183594 h -24.77344 v -27.339848 z m 100.29492,20.648439 c -26.35547,0 -47.20312,18.691407 -47.20312,50.554688 0,30.09375 19.86328,48.9843749 45.63281,48.9843749 23.01562,0 47.40234,-15.3515629 47.40234,-50.5546879 0,-29.109375 -18.49218,-48.984375 -45.83203,-48.984375 z m -0.38672,12.984375 c 20.44922,0 28.51172,20.460938 28.51172,36.585938 0,21.445312 -12.38672,36.984375 -28.91015,36.984375 -16.91016,0 -28.91016,-15.738281 -28.91016,-36.585938 0,-18.09375 8.84766,-36.984375 29.30859,-36.984375 z m 61.3711,79.8632816 c 6.67968,3.93750003 16.32422,6.4921875 26.74218,6.4921875 22.62891,0 35.60157,-11.8007812 35.60157,-28.5234371 0,-14.15625 -8.44922,-22.417969 -24.97266,-28.722657 -12.39844,-4.710937 -18.09375,-8.261718 -18.09375,-16.125 0,-7.078125 5.69531,-12.984375 15.92578,-12.984375 8.84766,0 15.73828,3.152344 19.47656,5.507813 l 4.32422,-12.585938 c -5.30859,-3.152343 -13.76953,-5.90625 -23.40234,-5.90625 -20.46094,0 -32.84766,12.597657 -32.84766,27.9375 0,11.402344 8.0625,20.847657 25.17188,26.941407 12.78515,4.722656 17.70703,9.246093 17.70703,17.507812 0,7.875 -5.90625,14.167969 -18.49219,14.167969 -8.66015,0 -17.70703,-3.539063 -22.8164,-6.890625 z m 0,0"
+                    style="
+                      fill: #220d01;
+                      fill-opacity: 1;
+                      fill-rule: nonzero;
+                      stroke: none;
+                    "
+                    aria-label="Expertos"
+                    transform="matrix(1.3333333,0,0,1.3333333,2600.2247,624.586)"
+                  ></path>
+                  <path
+                    id="path64-0"
+                    d="m 90.879983,-44.449266 c 0.1875,-1.769531 0.585937,-4.523437 0.585937,-8.074218 0,-17.496094 -8.261719,-44.847657 -39.339844,-44.847657 -27.738281,0 -44.6484372,22.628907 -44.6484372,51.339844 0,28.722656 17.5078122,48.0000001 46.8164062,48.0000001 15.140625,0 25.570313,-3.1523437 31.664063,-5.90625 L 83.004983,-16.324266 c -6.492188,2.753907 -13.957032,4.910157 -26.355469,4.910157 -17.308594,0 -32.261719,-9.632813 -32.648438,-33.035157 z M 24.200295,-56.847703 c 1.371094,-12 9.046875,-28.125 26.554688,-28.125 19.464843,0 24.1875,17.109375 23.988281,28.125 z M 112.90244,-4.6875e-5 h 17.3086 V -57.234422 c 0,-2.953125 0.39843,-5.90625 1.18359,-8.074219 2.95313,-9.632812 11.80078,-17.695312 23.21484,-17.695312 16.32422,0 22.03125,12.785156 22.03125,28.125 V -4.6875e-5 h 17.3086 V -56.847703 c 0,-32.648438 -20.46094,-40.523438 -33.64453,-40.523438 -15.72657,0 -26.74219,8.859375 -31.46485,17.90625 h -0.39843 l -0.98438,-15.738281 h -15.33984 c 0.59765,7.863281 0.78515,15.9375 0.78515,25.769531 z m 0,0"
+                    style="
+                      fill: #220d01;
+                      fill-opacity: 1;
+                      fill-rule: nonzero;
+                      stroke: none;
+                    "
+                    aria-label=" en "
+                    transform="matrix(1.3333333,0,0,1.3333333,3612.0181,624.586)"
+                  ></path>
+                  <path
+                    id="path65"
+                    d="M 130.02035,-4.6875e-5 H 146.743 L 138.48128,-132.57427 h -21.83203 l -23.61328,64.125004 c -5.894531,16.722657 -10.617187,31.277344 -13.957031,44.648438 H 78.481283 C 75.141439,-37.570359 70.618002,-52.125047 65.110189,-68.449266 L 42.493002,-132.57427 H 20.649252 L 11.414877,-4.6875e-5 H 27.739095 L 31.278158,-56.847703 c 1.183594,-19.863281 2.15625,-42.09375 2.554687,-58.617187 h 0.398438 c 3.738281,15.738281 9.046875,32.847656 15.339844,51.539062 L 71.00472,-0.78520312 H 83.989095 L 107.40316,-65.109422 c 6.67969,-18.292969 12.1875,-34.816406 16.71094,-50.355468 h 0.59765 c -0.19922,16.523437 0.98438,38.753906 1.96875,57.246093 z M 252.75667,-95.203172 h -17.30859 v 58.417969 c 0,3.152344 -0.58594,6.292969 -1.57031,8.859375 -3.15235,7.664062 -11.21485,15.726562 -22.81641,15.726562 -15.73828,0 -21.24609,-12.1875 -21.24609,-30.292968 v -52.710938 h -17.3086 v 55.664063 c 0,33.4453121 17.89453,41.7070309 32.84766,41.7070309 16.92187,0 26.95312,-10.03125 31.47656,-17.7070309 h 0.38672 l 0.98438,15.539062125 h 15.33984 C 252.95589,-7.4766094 252.75667,-16.125047 252.75667,-25.968797 Z m 93.62696,-44.449218 v 56.847656 h -0.38672 c -4.32422,-7.675782 -14.16797,-14.566407 -28.72266,-14.566407 -23.20312,0 -42.8789,19.476563 -42.67969,51.152344 0,28.910156 17.69532,48.3867189 40.71094,48.3867189 15.53906,0 27.15235,-8.0742188 32.46094,-18.6914059 h 0.38672 L 348.95003,-4.6875e-5 H 364.4891 C 363.89144,-6.4922344 363.69222,-16.125047 363.69222,-24.585984 V -139.65239 Z m 0,99.726562 c 0,2.753906 -0.1875,5.109375 -0.78516,7.464844 -3.14062,12.984375 -13.76953,20.660156 -25.37109,20.660156 -18.69141,0 -28.125,-15.9375 -28.125,-35.214844 0,-21.046875 10.61718,-36.773437 28.52343,-36.773437 12.97266,0 22.41797,9.046875 24.97266,20.0625 0.59766,2.15625 0.78516,5.109375 0.78516,7.277343 z M 460.86117,-4.6875e-5 C 459.68929,-6.4922344 459.29085,-14.554734 459.29085,-22.816453 v -35.601563 c 0,-19.078125 -7.07812,-38.953125 -36.1875,-38.953125 -12,0 -23.41406,3.351563 -31.27734,8.460938 l 3.9375,11.414062 c 6.67969,-4.335937 15.92578,-7.089843 24.78516,-7.089843 19.46484,0 21.63281,14.167968 21.63281,22.03125 v 1.96875 c -36.78516,-0.199219 -57.2461,12.398437 -57.2461,35.414062 0,13.757813 9.84375,27.3398439 29.1211,27.3398439 13.57031,0 23.80078,-6.6914063 29.10937,-14.1679689 h 0.58594 L 445.1346,-4.6875e-5 Z M 442.5682,-32.062547 c 0,1.769531 -0.38672,3.738281 -0.97266,5.507813 -2.75391,8.0625 -10.62891,15.9375 -23.01562,15.9375 -8.85938,0 -16.32422,-5.320313 -16.32422,-16.523438 0,-18.492187 21.43359,-21.832031 40.3125,-21.445312 z M 487.21956,-4.6875e-5 h 17.3086 V -57.234422 c 0,-2.953125 0.39844,-5.90625 1.18359,-8.074219 2.95313,-9.632812 11.80078,-17.695312 23.21485,-17.695312 16.32421,0 22.03125,12.785156 22.03125,28.125 V -4.6875e-5 h 17.30859 V -56.847703 c 0,-32.648438 -20.46094,-40.523438 -33.64453,-40.523438 -15.72656,0 -26.74219,8.859375 -31.46485,17.90625 h -0.39843 l -0.98438,-15.738281 h -15.33984 c 0.59765,7.863281 0.78515,15.9375 0.78515,25.769531 z m 98.35254,0 h 77.3086 V -13.769578 h -55.67578 v -0.398438 c 4.33593,-4.910156 8.26171,-9.632812 12.19921,-14.941406 l 42.49219,-55.277344 0.1875,-10.816406 H 589.5096 v 13.96875 h 51.53907 v 0.386719 c -4.33594,5.121094 -8.26172,9.644531 -12.39844,14.753906 l -43.07813,56.0625 z m 163.45313,0 C 747.85335,-6.4922344 747.45492,-14.554734 747.45492,-22.816453 v -35.601563 c 0,-19.078125 -7.07813,-38.953125 -36.1875,-38.953125 -12,0 -23.41407,3.351563 -31.27735,8.460938 l 3.9375,11.414062 c 6.67969,-4.335937 15.92578,-7.089843 24.78516,-7.089843 19.46484,0 21.63281,14.167968 21.63281,22.03125 v 1.96875 c -36.78516,-0.199219 -57.24609,12.398437 -57.24609,35.414062 0,13.757813 9.84375,27.3398439 29.12109,27.3398439 13.57031,0 23.80078,-6.6914063 29.10938,-14.1679689 h 0.58593 L 733.29867,-4.6875e-5 Z M 730.73226,-32.062547 c 0,1.769531 -0.38672,3.738281 -0.97266,5.507813 -2.7539,8.0625 -10.6289,15.9375 -23.01562,15.9375 -8.85938,0 -16.32422,-5.320313 -16.32422,-16.523438 0,-18.492187 21.43359,-21.832031 40.3125,-21.445312 z m 37.97168,27.5390626 c 6.67969,3.93750003 16.32422,6.4921875 26.74219,6.4921875 22.6289,0 35.60156,-11.8007812 35.60156,-28.5234371 0,-14.15625 -8.44922,-22.417969 -24.97266,-28.722657 -12.39843,-4.710937 -18.09375,-8.261718 -18.09375,-16.125 0,-7.078125 5.69532,-12.984375 15.92578,-12.984375 8.84766,0 15.73829,3.152344 19.47657,5.507813 l 4.32422,-12.585938 c -5.3086,-3.152343 -13.76954,-5.90625 -23.40235,-5.90625 -20.46094,0 -32.84765,12.597657 -32.84765,27.9375 0,11.402344 8.0625,20.847657 25.17187,26.941407 12.78516,4.722656 17.70703,9.246093 17.70703,17.507812 0,7.875 -5.90625,14.167969 -18.49219,14.167969 -8.66015,0 -17.70703,-3.539063 -22.8164,-6.890625 z m 0,0"
+                    style="
+                      fill: #ff5a19;
+                      fill-opacity: 1;
+                      fill-rule: nonzero;
+                      stroke: none;
+                    "
+                    aria-label=" Mudanzas"
+                    transform="matrix(1.3333333,0,0,1.3333333,4000.1708,624.586)"
+                  ></path>
+                  <path
+                    id="path66-9"
+                    d="m 0,0 c 0,0 -20.74,-150.473 -0.751,-172.478 0,0 13.436,-4.94 0.751,172.478"
+                    style="
+                      fill: #ff5a19;
+                      fill-opacity: 1;
+                      fill-rule: nonzero;
+                      stroke: none;
+                    "
+                    transform="matrix(1.3333333,0,0,-1.3333333,3962.4896,391.23573)"
+                    clip-path="url(#clipPath67)"
+                  ></path>
+                  <path
+                    id="path68-6"
+                    d="m 0,0 c 2.676,-15.426 -7.256,-30.029 -22.184,-32.619 -14.927,-2.589 -29.198,7.817 -31.873,23.243 -2.675,15.426 7.256,30.029 22.184,32.619 C -16.945,25.832 -2.675,15.426 0,0"
+                    style="
+                      fill: #ff5a19;
+                      fill-opacity: 1;
+                      fill-rule: nonzero;
+                      stroke: none;
+                    "
+                    transform="matrix(1.3333333,0,0,-1.3333333,4143.8229,400.75133)"
+                    clip-path="url(#clipPath69)"
+                  ></path>
+                  <path
+                    id="path70-3"
+                    d="m 0,0 c 0,0 139.541,89.172 187.604,105.127 0,0 23.628,3.995 39.559,-9.704 0,0 61.72,-33.472 94.308,-57.677 l 36.332,-21.695 c 0,0 -113.353,45.919 -144.374,63.049 0,0 -20.516,10.043 -36.498,3.661 z"
+                    style="
+                      fill: #ff5a19;
+                      fill-opacity: 1;
+                      fill-rule: nonzero;
+                      stroke: none;
+                    "
+                    transform="matrix(1.3333333,0,0,-1.3333333,3845.6393,460.89187)"
+                    clip-path="url(#clipPath71)"
+                  ></path>
+                  <path
+                    id="path72-8"
+                    d="m 0,0 c 0,-11.088 -8.988,-20.075 -20.075,-20.075 -11.088,0 -20.075,8.987 -20.075,20.075 0,11.087 8.987,20.075 20.075,20.075 C -8.988,20.075 0,11.087 0,0"
+                    style="
+                      fill: #f7c6ae;
+                      fill-opacity: 1;
+                      fill-rule: nonzero;
+                      stroke: none;
+                    "
+                    transform="matrix(1.3333333,0,0,-1.3333333,4128.8255,409.56387)"
+                    clip-path="url(#clipPath73)"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+            <!-- Collapse toggle for smaller screens -->
+            <div class="ml-auto mr-5 md:hidden">
+              <button
+                type="button"
+                class="hs-collapse-toggle flex h-8 w-8 items-center justify-center rounded-full text-sm font-bold text-neutral-600 transition duration-300 hover:bg-neutral-200 disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:outline-none"
+                data-hs-collapse="#navbar-collapse-with-animation"
+                aria-controls="navbar-collapse-with-animation"
+                aria-label="Toggle navigation"
+              >
+                <svg
+                  class="h-[1.25rem] w-[1.25rem] flex-shrink-0 hs-collapse-open:hidden"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="3" x2="21" y1="6" y2="6"></line>
+                  <line x1="3" x2="21" y1="12" y2="12"></line>
+                  <line x1="3" x2="21" y1="18" y2="18"></line>
+                </svg>
+                <svg
+                  class="hidden h-[1.25rem] w-[1.25rem] flex-shrink-0 hs-collapse-open:block"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M18 6 6 18"></path>
+                  <path d="m6 6 12 12"></path>
+                </svg>
+              </button>
+            </div>
+            <!-- ThemeIcon component specifically for smaller screens -->
+            <span class="inline-block md:hidden">
+              <!-- Dark Theme Toggle Button --><!-- This button is shown when the light theme is active, and when clicked, it switches the theme to dark --><button
+                type="button"
+                aria-label="Dark Theme Toggle"
+                class="hs-dark-mode group flex h-8 w-8 items-center justify-center rounded-full font-medium text-neutral-600 outline-none ring-zinc-500 transition duration-300 hover:bg-neutral-200 hover:text-orange-400 hs-dark-mode-active:hidden dark:text-neutral-400 dark:ring-zinc-200 dark:hover:text-orange-300 dark:focus:outline-none"
+                data-hs-theme-click-value="dark"
+              >
+                <!-- The SVG displayed shows an abstract icon that represents the moon (dark theme) -->
+                <svg
+                  class="h-4 w-4 flex-shrink-0"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                </svg>
+                <!-- Light Theme Toggle Button -->
+                <!-- This button is hidden by default and only appears when the dark theme is active, when clicked, it switches to the light theme -->
+              </button>
+              <button
+                type="button"
+                aria-label="Light Theme Toggle"
+                class="hs-dark-mode group hidden h-8 w-8 items-center justify-center rounded-full font-medium text-neutral-600 outline-none ring-zinc-500 transition duration-300 hover:text-orange-400 hs-dark-mode-active:flex dark:text-neutral-400 dark:ring-zinc-200 dark:hover:bg-neutral-700 dark:hover:text-orange-300 dark:focus:outline-none"
+                data-hs-theme-click-value="light"
+              >
+                <!-- The SVG displayed shows a standard sun icon that stands for the light theme -->
+                <svg
+                  class="h-4 w-4 flex-shrink-0"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="4"></circle>
+                  <path d="M12 8a2 2 0 1 0 4 4"></path>
+                  <path d="M12 2v2"></path>
+                  <path d="M12 20v2"></path>
+                  <path d="m4.93 4.93 1.41 1.41"></path>
+                  <path d="m17.66 17.66 1.41 1.41"></path>
+                  <path d="M2 12h2"></path>
+                  <path d="M20 12h2"></path>
+                  <path d="m6.34 17.66-1.41 1.41"></path>
+                  <path d="m19.07 4.93-1.41 1.41"></path>
+                </svg>
+              </button>
+            </span>
+          </div>
+          <!-- Contains navigation links -->
+          <div
+            id="navbar-collapse-with-animation"
+            class="hs-collapse hidden grow basis-full overflow-hidden transition-all duration-300 md:block"
+          >
+            <!-- Navigation links container -->
+            <div
+              class="mt-5 flex flex-col gap-x-0 gap-y-4 md:mt-0 md:flex-row md:items-center md:justify-end md:gap-x-4 lg:gap-x-7 md:gap-y-0 md:ps-7"
+            >
+              <!-- Navigation links and Authentication component -->
+              <!--
+Re-usable link component for navigation bar. Highlights the active link
+by comparing the current URL with the href of each link.
+We assign an ID matching the URL for easy reference in our script.
+If URL is '/' (home page), assign ID as 'home' 
+--><a
+                id="home"
+                href="../index.html"
+                data-astro-prefetch
+                class="rounded-lg text-base font-medium text-neutral-600 outline-none ring-zinc-500 hover:text-neutral-500 focus-visible:ring dark:text-neutral-400 dark:ring-zinc-200 dark:hover:text-neutral-500 dark:focus:outline-none md:py-3 md:text-sm 2xl:text-base"
+              >
+                Inicio
+              </a>
+              <script type="module">
+                document.addEventListener("DOMContentLoaded", function () {
+                  let t = window.location.pathname;
+                  t.split("/");
+                  let a;
+                  t === "/" ? (a = "home") : (a = t.replace("/", ""));
+                  let e = document.getElementById(a);
+                  e &&
+                    (e.classList.remove(
+                      "text-neutral-600",
+                      "dark:text-neutral-400",
+                      "hover:text-neutral-500",
+                      "dark:hover:text-neutral-500"
+                    ),
+                    e.classList.add("text-orange-400", "dark:text-orange-300"),
+                    e.setAttribute("aria-current", "page"));
+                });
+              </script>
+              <!--
+Re-usable link component for navigation bar. Highlights the active link
+by comparing the current URL with the href of each link.
+We assign an ID matching the URL for easy reference in our script.
+If URL is '/' (home page), assign ID as 'home' 
+--><a
+                id="services"
+                href="../services/index.html"
+                data-astro-prefetch
+                class="rounded-lg text-base font-medium text-neutral-600 outline-none ring-zinc-500 hover:text-neutral-500 focus-visible:ring dark:text-neutral-400 dark:ring-zinc-200 dark:hover:text-neutral-500 dark:focus:outline-none md:py-3 md:text-sm 2xl:text-base"
+              >
+                Servicios
+              </a>
+              <!--
+Re-usable link component for navigation bar. Highlights the active link
+by comparing the current URL with the href of each link.
+We assign an ID matching the URL for easy reference in our script.
+If URL is '/' (home page), assign ID as 'home' 
+--><a
+                id="contact"
+                href="../contact/index.html"
+                data-astro-prefetch
+                class="rounded-lg text-base font-medium text-neutral-600 outline-none ring-zinc-500 hover:text-neutral-500 focus-visible:ring dark:text-neutral-400 dark:ring-zinc-200 dark:hover:text-neutral-500 dark:focus:outline-none md:py-3 md:text-sm 2xl:text-base"
+              >
+                Contactos
+              </a>
+              <!-- ThemeIcon component specifically for larger screens -->
+              <span class="hidden md:inline-block">
+                <!-- Dark Theme Toggle Button --><!-- This button is shown when the light theme is active, and when clicked, it switches the theme to dark --><button
+                  type="button"
+                  aria-label="Dark Theme Toggle"
+                  class="hs-dark-mode group flex h-8 w-8 items-center justify-center rounded-full font-medium text-neutral-600 outline-none ring-zinc-500 transition duration-300 hover:bg-neutral-200 hover:text-orange-400 hs-dark-mode-active:hidden dark:text-neutral-400 dark:ring-zinc-200 dark:hover:text-orange-300 dark:focus:outline-none"
+                  data-hs-theme-click-value="dark"
+                >
+                  <!-- The SVG displayed shows an abstract icon that represents the moon (dark theme) -->
+                  <svg
+                    class="h-4 w-4 flex-shrink-0"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                  </svg>
+                  <!-- Light Theme Toggle Button -->
+                  <!-- This button is hidden by default and only appears when the dark theme is active, when clicked, it switches to the light theme -->
+                </button>
+                <button
+                  type="button"
+                  aria-label="Light Theme Toggle"
+                  class="hs-dark-mode group hidden h-8 w-8 items-center justify-center rounded-full font-medium text-neutral-600 outline-none ring-zinc-500 transition duration-300 hover:text-orange-400 hs-dark-mode-active:flex dark:text-neutral-400 dark:ring-zinc-200 dark:hover:bg-neutral-700 dark:hover:text-orange-300 dark:focus:outline-none"
+                  data-hs-theme-click-value="light"
+                >
+                  <!-- The SVG displayed shows a standard sun icon that stands for the light theme -->
+                  <svg
+                    class="h-4 w-4 flex-shrink-0"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <path d="M12 8a2 2 0 1 0 4 4"></path>
+                    <path d="M12 2v2"></path>
+                    <path d="M12 20v2"></path>
+                    <path d="m4.93 4.93 1.41 1.41"></path>
+                    <path d="m17.66 17.66 1.41 1.41"></path>
+                    <path d="M2 12h2"></path>
+                    <path d="M20 12h2"></path>
+                    <path d="m6.34 17.66-1.41 1.41"></path>
+                    <path d="m19.07 4.93-1.41 1.41"></path>
+                  </svg>
+                </button>
+              </span>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- Theme Appearance script to manage light/dark modes -->
+      <script>
+        const HSThemeAppearance = {
+          init() {
+            const defaultTheme = "default";
+            let theme = localStorage.getItem("hs_theme") || defaultTheme;
+
+            if (document.querySelector("html").classList.contains("dark"))
+              return;
+            this.setAppearance(theme);
+          },
+          _resetStylesOnLoad() {
+            const $resetStyles = document.createElement("style");
+            $resetStyles.innerText = `*{transition: unset !important;}`;
+            $resetStyles.setAttribute("data-hs-appearance-onload-styles", "");
+            document.head.appendChild($resetStyles);
+            return $resetStyles;
+          },
+          setAppearance(theme, saveInStore = true, dispatchEvent = true) {
+            const $resetStylesEl = this._resetStylesOnLoad();
+
+            if (saveInStore) {
+              localStorage.setItem("hs_theme", theme);
+            }
+
+            if (theme === "auto") {
+              theme = window.matchMedia("(prefers-color-scheme: dark)").matches
+                ? "dark"
+                : "default";
+            }
+
+            document.querySelector("html").classList.remove("dark");
+            document.querySelector("html").classList.remove("default");
+            document.querySelector("html").classList.remove("auto");
+
+            document
+              .querySelector("html")
+              .classList.add(this.getOriginalAppearance());
+
+            setTimeout(() => {
+              $resetStylesEl.remove();
+            });
+
+            if (dispatchEvent) {
+              window.dispatchEvent(
+                new CustomEvent("on-hs-appearance-change", { detail: theme })
+              );
+            }
+          },
+          getAppearance() {
+            let theme = this.getOriginalAppearance();
+            if (theme === "auto") {
+              theme = window.matchMedia("(prefers-color-scheme: dark)").matches
+                ? "dark"
+                : "default";
+            }
+            return theme;
+          },
+          getOriginalAppearance() {
+            const defaultTheme = "default";
+            return localStorage.getItem("hs_theme") || defaultTheme;
+          },
+        };
+        HSThemeAppearance.init();
+
+        window
+          .matchMedia("(prefers-color-scheme: dark)")
+          .addEventListener("change", () => {
+            if (HSThemeAppearance.getOriginalAppearance() === "auto") {
+              HSThemeAppearance.setAppearance("auto", false);
+            }
+          });
+
+        window.addEventListener("load", () => {
+          const $clickableThemes = document.querySelectorAll(
+            "[data-hs-theme-click-value]"
+          );
+          const $switchableThemes = document.querySelectorAll(
+            "[data-hs-theme-switch]"
+          );
+
+          $clickableThemes.forEach(($item) => {
+            $item.addEventListener("click", () =>
+              HSThemeAppearance.setAppearance(
+                $item.getAttribute("data-hs-theme-click-value"),
+                true,
+                $item
+              )
+            );
+          });
+
+          $switchableThemes.forEach(($item) => {
+            $item.addEventListener("change", (e) => {
+              HSThemeAppearance.setAppearance(
+                e.target.checked ? "dark" : "default"
+              );
+            });
+
+            $item.checked = HSThemeAppearance.getAppearance() === "dark";
+          });
+
+          window.addEventListener("on-hs-appearance-change", (e) => {
+            $switchableThemes.forEach(($item) => {
+              $item.checked = e.detail === "dark";
+            });
+          });
+        });
+      </script>
+      <!--Import the necessary Collapse and Overlay plugins-->
+      <!--https://preline.co/plugins/html/collapse.html-->
+      <!--https://preline.co/plugins/html/overlay.html-->
+      <script
+        type="module"
+        src="../recursos/Navbar.astro_astro_type_script_index_0_lang.DZhjMCnj.js"
+      ></script>
+      <main class="astro-ouamjn2i">
+        <!-- Contact Us -->
+        <section
+          class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14"
+        >
+          <div class="mx-auto max-w-2xl lg:max-w-5xl">
+            <div class="text-center">
+              <h1
+                class="text-balance text-2xl font-bold tracking-tight text-neutral-800 dark:text-neutral-200 md:text-4xl md:leading-tight"
+              >
+                Contactanos
+              </h1>
+              <p
+                class="mt-1 text-pretty text-neutral-600 dark:text-neutral-400"
+              >
+                ¿Tienes preguntas o quieres hablar sobre una mudanza? Comunícate
+                con nosotros y diseñemos la solución perfecta con nuestras
+                herramientas y servicios.
+              </p>
+            </div>
+            <div class="mt-12 grid items-center gap-6 lg:grid-cols-2 lg:gap-16">
+              <!--ContactIconBlocks are used to display different methods of contacting, including visiting office, email, browsing knowledgebase, and FAQ.-->
+              <div class="divide-y divide-neutral-300 dark:divide-neutral-700">
+                <!-- Root container, which arranges the heading and content -->
+                <div class="flex gap-x-7 py-6">
+                  <!-- Slot to allow for extensibility of the component -->
+                  <svg
+                    class="mt-1.5 h-6 w-6 flex-shrink-0 text-neutral-600 dark:text-neutral-400"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <title></title>
+                    <path
+                      d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"
+                      class=""
+                    ></path>
+                  </svg>
+                  <div class="grow">
+                    <!-- Heading of the section -->
+                    <h3
+                      class="font-bold text-neutral-700 dark:text-neutral-300"
+                    >
+                      Contactos
+                    </h3>
+                    <!-- Content of the section -->
+                    <p
+                      class="mt-1 text-sm text-neutral-600 dark:text-neutral-400"
+                    >
+                      Cotiza o pregunta en nuestros numeros de telefono
+                    </p>
+                    <!-- Conditional rendering of address content if isAddressVisible is true -->
+                    <!-- Conditional rendering of a link if isLinkVisible is true.
+         The link also conditionally includes an arrow SVG if isArrowVisible is true -->
+                    <a
+                      class="group mt-2 inline-flex items-center gap-x-2 rounded-lg text-sm font-medium text-zinc-600 outline-none ring-zinc-500 transition duration-300 hover:text-zinc-800 focus-visible:ring dark:text-zinc-400 dark:ring-zinc-200 dark:hover:text-zinc-200 dark:focus:outline-none dark:focus:ring-1"
+                      href="https://wa.me/5930985720632?text=Hola.%20Me%20gustaria%20Cotizar%20una%20mudanza."
+                    >
+                      +(593) 0985720632
+                      <svg
+                        class="h-4 w-4 flex-shrink-0 transition ease-in-out group-hover:translate-x-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <!-- Root container, which arranges the heading and content -->
+                <div class="flex gap-x-7 py-6">
+                  <!-- Slot to allow for extensibility of the component -->
+                  <svg
+                    class="mt-1.5 h-6 w-6 flex-shrink-0 text-neutral-600 dark:text-neutral-400"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <title></title>
+                    <path
+                      d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
+                      class=""
+                    ></path>
+                  </svg>
+                  <div class="grow">
+                    <!-- Heading of the section -->
+                    <h3
+                      class="font-bold text-neutral-700 dark:text-neutral-300"
+                    >
+                      Chatea con nosotros
+                    </h3>
+                    <!-- Content of the section -->
+                    <p
+                      class="mt-1 text-sm text-neutral-600 dark:text-neutral-400"
+                    >
+                      Escribenos por Whatsapp
+                    </p>
+                    <!-- Conditional rendering of address content if isAddressVisible is true -->
+                    <!-- Conditional rendering of a link if isLinkVisible is true.
+         The link also conditionally includes an arrow SVG if isArrowVisible is true -->
+                    <a
+                      class="group mt-2 inline-flex items-center gap-x-2 rounded-lg text-sm font-medium text-zinc-600 outline-none ring-zinc-500 transition duration-300 hover:text-zinc-800 focus-visible:ring dark:text-zinc-400 dark:ring-zinc-200 dark:hover:text-zinc-200 dark:focus:outline-none dark:focus:ring-1"
+                      href="https://wa.me/5930985720632?text=Hola.%20Me%20gustaria%20Cotizar%20una%20mudanza."
+                    >
+                      +(593) 0985720632
+                      <svg
+                        class="h-4 w-4 flex-shrink-0 transition ease-in-out group-hover:translate-x-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <!-- Root container, which arranges the heading and content -->
+                <div class="flex gap-x-7 py-6">
+                  <!-- Slot to allow for extensibility of the component -->
+                  <svg
+                    class="mt-1.5 h-6 w-6 flex-shrink-0 text-neutral-600 dark:text-neutral-400"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <title></title>
+                    <path
+                      d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                      class=""
+                    ></path>
+                    <path
+                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                      class=""
+                    ></path>
+                  </svg>
+                  <div class="grow">
+                    <!-- Heading of the section -->
+                    <h3
+                      class="font-bold text-neutral-700 dark:text-neutral-300"
+                    >
+                      Estamos ubicados en:
+                    </h3>
+                    <!-- Content of the section -->
+                    <p
+                      class="mt-1 text-sm text-neutral-600 dark:text-neutral-400"
+                    >
+                      Quito - Ecuador
+                    </p>
+                    <!-- Conditional rendering of address content if isAddressVisible is true -->
+                    <p class="mt-1 text-sm italic text-neutral-500">
+                      Av. Juan Molineros y De los Guayacanes
+                    </p>
+                    <!-- Conditional rendering of a link if isLinkVisible is true.
+         The link also conditionally includes an arrow SVG if isArrowVisible is true -->
+                  </div>
+                </div>
+                <!-- Root container, which arranges the heading and content -->
+                <div class="flex gap-x-7 py-6">
+                  <!-- Slot to allow for extensibility of the component -->
+                  <svg
+                    class="mt-1.5 h-6 w-6 flex-shrink-0 text-neutral-600 dark:text-neutral-400"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <title></title>
+                    <path
+                      d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z"
+                      class=""
+                    ></path>
+                  </svg>
+                  <div class="grow">
+                    <!-- Heading of the section -->
+                    <h3
+                      class="font-bold text-neutral-700 dark:text-neutral-300"
+                    >
+                      Contactanos por email
+                    </h3>
+                    <!-- Content of the section -->
+                    <p
+                      class="mt-1 text-sm text-neutral-600 dark:text-neutral-400"
+                    >
+                      Envíanos un correo electrónico a:
+                    </p>
+                    <!-- Conditional rendering of address content if isAddressVisible is true -->
+                    <!-- Conditional rendering of a link if isLinkVisible is true.
+         The link also conditionally includes an arrow SVG if isArrowVisible is true -->
+                    <a
+                      class="group mt-2 inline-flex items-center gap-x-2 rounded-lg text-sm font-medium text-zinc-600 outline-none ring-zinc-500 transition duration-300 hover:text-zinc-800 focus-visible:ring dark:text-zinc-400 dark:ring-zinc-200 dark:hover:text-zinc-200 dark:focus:outline-none dark:focus:ring-1"
+                      href="mailto:expertmoving@hotmail.com"
+                    >
+                      expertmoving@hotmail.com
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer class="w-full bg-neutral-300 dark:bg-neutral-900">
+      <div
+        class="mx-auto w-full max-w-[85rem] px-4 py-10 sm:px-6 lg:px-16 lg:pt-20 2xl:max-w-screen-2xl"
+      >
+        <div class="grid grid-cols-2 gap-6 md:grid-cols-4 lg:grid-cols-5">
+          <div class="col-span-full lg:col-span-1">
+            <!-- Brand Logo -->
+            <!--?xml version="1.0" encoding="UTF-8" standalone="no"?--><!-- Created with Inkscape (http://www.inkscape.org/) --><svg
+              viewBox="0 0 2488.0703 356.50812"
+              height="auto"
+              width="200px"
+              id="svg3248"
+              version="1.1"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <style id="style22"></style>
+              <defs id="defs3252">
+                <linearGradient id="linearGradient3206">
+                  <stop
+                    style="stop-color: #000000; stop-opacity: 1"
+                    offset="0"
+                    id="stop3204"
+                  ></stop>
+                </linearGradient>
+                <pattern
+                  patternUnits="userSpaceOnUse"
+                  width="62.323503"
+                  height="68.009218"
+                  patternTransform="translate(347.91891,152.77532)"
+                  preserveAspectRatio="xMidYMid"
+                  id="pattern100"
+                >
+                  <g id="g99" transform="translate(-347.91891,-152.77532)">
+                    <path
+                      id="path66"
+                      style="
+                        fill: #0f969c;
+                        stroke: none;
+                        stroke-width: 0.377953;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                      "
+                      d="m 288.8125,168.83008 c -0.50594,-0.0104 -1.0116,0.0151 -1.50976,0.0742 -2.09264,0.25254 -3.9803,1.05074 -5.53516,2.04297 -3.01928,1.91635 -4.83585,4.47765 -5.71875,6.3125 -0.002,0.003 -0.002,0.006 -0.004,0.01 -0.39698,-0.15862 -0.82054,-0.24015 -1.24804,-0.24023 -1.85853,9e-5 -3.36514,1.5067 -3.36524,3.36523 9e-5,1.85853 1.50671,3.36515 3.36524,3.36524 1.85853,-10e-5 3.36514,-1.50671 3.36523,-3.36524 -9e-5,-1.16284 -0.60048,-2.24324 -1.58789,-2.85742 1.03398,-1.69553 2.78794,-3.88513 5.76758,-5.6543 1.4754,-0.87061 3.22407,-1.56654 5.09765,-1.75781 1.76939,-0.18444 3.63073,0.11095 5.28516,0.9043 0.037,0.0175 0.0745,0.0347 0.11133,0.0527 1.51414,0.7407 2.83422,1.9377 4.10351,3.13086 1.57817,1.49506 3.04048,3.04162 4.48633,4.38477 1.74435,1.62693 3.25597,2.79534 4.91016,3.60351 0.882,0.43227 1.68392,0.67482 2.38867,0.80469 0.13162,1.75198 1.58879,3.10793 3.3457,3.11328 1.85853,-9e-5 3.36514,-1.5067 3.36524,-3.36523 -9e-5,-1.85853 -1.50671,-3.36515 -3.36524,-3.36524 -1.70029,0.003 -3.13158,1.27297 -3.33593,2.96094 -0.60917,-0.18508 -1.28922,-0.46064 -2.01758,-0.87305 -1.51686,-0.86042 -2.85391,-2.01346 -4.53321,-3.66992 -1.37217,-1.35921 -2.79304,-2.93327 -4.38867,-4.48633 -1.2645,-1.24034 -2.6766,-2.51662 -4.39648,-3.37695 -0.0417,-0.0208 -0.0829,-0.0402 -0.125,-0.0606 -1.41242,-0.67389 -2.94311,-1.02148 -4.46094,-1.05273 z"
+                      transform="translate(92.282509,21.531068)"
+                    ></path>
+                    <path
+                      transform="rotate(-60,351.58586,96.095397)"
+                      style="
+                        fill: #0f969c;
+                        stroke: none;
+                        stroke-width: 0.377953;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                      "
+                      id="path69"
+                      d="m 288.8125,168.83008 c -0.50594,-0.0104 -1.0116,0.0151 -1.50976,0.0742 -2.09264,0.25254 -3.9803,1.05074 -5.53516,2.04297 -3.01928,1.91635 -4.83585,4.47765 -5.71875,6.3125 -0.002,0.003 -0.002,0.006 -0.004,0.01 -0.39698,-0.15862 -0.82054,-0.24015 -1.24804,-0.24023 -1.85853,9e-5 -3.36514,1.5067 -3.36524,3.36523 9e-5,1.85853 1.50671,3.36515 3.36524,3.36524 1.85853,-10e-5 3.36514,-1.50671 3.36523,-3.36524 -9e-5,-1.16284 -0.60048,-2.24324 -1.58789,-2.85742 1.03398,-1.69553 2.78794,-3.88513 5.76758,-5.6543 1.4754,-0.87061 3.22407,-1.56654 5.09765,-1.75781 1.76939,-0.18444 3.63073,0.11095 5.28516,0.9043 0.037,0.0175 0.0745,0.0347 0.11133,0.0527 1.51414,0.7407 2.83422,1.9377 4.10351,3.13086 1.57817,1.49506 3.04048,3.04162 4.48633,4.38477 1.74435,1.62693 3.25597,2.79534 4.91016,3.60351 0.882,0.43227 1.68392,0.67482 2.38867,0.80469 0.13162,1.75198 1.58879,3.10793 3.3457,3.11328 1.85853,-9e-5 3.36514,-1.5067 3.36524,-3.36523 -9e-5,-1.85853 -1.50671,-3.36515 -3.36524,-3.36524 -1.70029,0.003 -3.13158,1.27297 -3.33593,2.96094 -0.60917,-0.18508 -1.28922,-0.46064 -2.01758,-0.87305 -1.51686,-0.86042 -2.85391,-2.01346 -4.53321,-3.66992 -1.37217,-1.35921 -2.79304,-2.93327 -4.38867,-4.48633 -1.2645,-1.24034 -2.6766,-2.51662 -4.39648,-3.37695 -0.0417,-0.0208 -0.0829,-0.0402 -0.125,-0.0606 -1.41242,-0.67389 -2.94311,-1.02148 -4.46094,-1.05273 z"
+                    ></path>
+                    <path
+                      transform="rotate(-120,339.15489,149.37473)"
+                      style="
+                        fill: #0f969c;
+                        stroke: none;
+                        stroke-width: 0.377953;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                      "
+                      id="path70"
+                      d="m 288.8125,168.83008 c -0.50594,-0.0104 -1.0116,0.0151 -1.50976,0.0742 -2.09264,0.25254 -3.9803,1.05074 -5.53516,2.04297 -3.01928,1.91635 -4.83585,4.47765 -5.71875,6.3125 -0.002,0.003 -0.002,0.006 -0.004,0.01 -0.39698,-0.15862 -0.82054,-0.24015 -1.24804,-0.24023 -1.85853,9e-5 -3.36514,1.5067 -3.36524,3.36523 9e-5,1.85853 1.50671,3.36515 3.36524,3.36524 1.85853,-10e-5 3.36514,-1.50671 3.36523,-3.36524 -9e-5,-1.16284 -0.60048,-2.24324 -1.58789,-2.85742 1.03398,-1.69553 2.78794,-3.88513 5.76758,-5.6543 1.4754,-0.87061 3.22407,-1.56654 5.09765,-1.75781 1.76939,-0.18444 3.63073,0.11095 5.28516,0.9043 0.037,0.0175 0.0745,0.0347 0.11133,0.0527 1.51414,0.7407 2.83422,1.9377 4.10351,3.13086 1.57817,1.49506 3.04048,3.04162 4.48633,4.38477 1.74435,1.62693 3.25597,2.79534 4.91016,3.60351 0.882,0.43227 1.68392,0.67482 2.38867,0.80469 0.13162,1.75198 1.58879,3.10793 3.3457,3.11328 1.85853,-9e-5 3.36514,-1.5067 3.36524,-3.36523 -9e-5,-1.85853 -1.50671,-3.36515 -3.36524,-3.36524 -1.70029,0.003 -3.13158,1.27297 -3.33593,2.96094 -0.60917,-0.18508 -1.28922,-0.46064 -2.01758,-0.87305 -1.51686,-0.86042 -2.85391,-2.01346 -4.53321,-3.66992 -1.37217,-1.35921 -2.79304,-2.93327 -4.38867,-4.48633 -1.2645,-1.24034 -2.6766,-2.51662 -4.39648,-3.37695 -0.0417,-0.0208 -0.0829,-0.0402 -0.125,-0.0606 -1.41242,-0.67389 -2.94311,-1.02148 -4.46094,-1.05273 z"
+                    ></path>
+                    <path
+                      transform="rotate(180,332.9394,176.01439)"
+                      style="
+                        fill: #0f969c;
+                        stroke: none;
+                        stroke-width: 0.377953;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                      "
+                      id="path71"
+                      d="m 288.8125,168.83008 c -0.50594,-0.0104 -1.0116,0.0151 -1.50976,0.0742 -2.09264,0.25254 -3.9803,1.05074 -5.53516,2.04297 -3.01928,1.91635 -4.83585,4.47765 -5.71875,6.3125 -0.002,0.003 -0.002,0.006 -0.004,0.01 -0.39698,-0.15862 -0.82054,-0.24015 -1.24804,-0.24023 -1.85853,9e-5 -3.36514,1.5067 -3.36524,3.36523 9e-5,1.85853 1.50671,3.36515 3.36524,3.36524 1.85853,-10e-5 3.36514,-1.50671 3.36523,-3.36524 -9e-5,-1.16284 -0.60048,-2.24324 -1.58789,-2.85742 1.03398,-1.69553 2.78794,-3.88513 5.76758,-5.6543 1.4754,-0.87061 3.22407,-1.56654 5.09765,-1.75781 1.76939,-0.18444 3.63073,0.11095 5.28516,0.9043 0.037,0.0175 0.0745,0.0347 0.11133,0.0527 1.51414,0.7407 2.83422,1.9377 4.10351,3.13086 1.57817,1.49506 3.04048,3.04162 4.48633,4.38477 1.74435,1.62693 3.25597,2.79534 4.91016,3.60351 0.882,0.43227 1.68392,0.67482 2.38867,0.80469 0.13162,1.75198 1.58879,3.10793 3.3457,3.11328 1.85853,-9e-5 3.36514,-1.5067 3.36524,-3.36523 -9e-5,-1.85853 -1.50671,-3.36515 -3.36524,-3.36524 -1.70029,0.003 -3.13158,1.27297 -3.33593,2.96094 -0.60917,-0.18508 -1.28922,-0.46064 -2.01758,-0.87305 -1.51686,-0.86042 -2.85391,-2.01346 -4.53321,-3.66992 -1.37217,-1.35921 -2.79304,-2.93327 -4.38867,-4.48633 -1.2645,-1.24034 -2.6766,-2.51662 -4.39648,-3.37695 -0.0417,-0.0208 -0.0829,-0.0402 -0.125,-0.0606 -1.41242,-0.67389 -2.94311,-1.02148 -4.46094,-1.05273 z"
+                    ></path>
+                    <path
+                      transform="rotate(120,326.72392,202.65406)"
+                      style="
+                        fill: #0f969c;
+                        stroke: none;
+                        stroke-width: 0.377953;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                      "
+                      id="path84"
+                      d="m 288.8125,168.83008 c -0.50594,-0.0104 -1.0116,0.0151 -1.50976,0.0742 -2.09264,0.25254 -3.9803,1.05074 -5.53516,2.04297 -3.01928,1.91635 -4.83585,4.47765 -5.71875,6.3125 -0.002,0.003 -0.002,0.006 -0.004,0.01 -0.39698,-0.15862 -0.82054,-0.24015 -1.24804,-0.24023 -1.85853,9e-5 -3.36514,1.5067 -3.36524,3.36523 9e-5,1.85853 1.50671,3.36515 3.36524,3.36524 1.85853,-10e-5 3.36514,-1.50671 3.36523,-3.36524 -9e-5,-1.16284 -0.60048,-2.24324 -1.58789,-2.85742 1.03398,-1.69553 2.78794,-3.88513 5.76758,-5.6543 1.4754,-0.87061 3.22407,-1.56654 5.09765,-1.75781 1.76939,-0.18444 3.63073,0.11095 5.28516,0.9043 0.037,0.0175 0.0745,0.0347 0.11133,0.0527 1.51414,0.7407 2.83422,1.9377 4.10351,3.13086 1.57817,1.49506 3.04048,3.04162 4.48633,4.38477 1.74435,1.62693 3.25597,2.79534 4.91016,3.60351 0.882,0.43227 1.68392,0.67482 2.38867,0.80469 0.13162,1.75198 1.58879,3.10793 3.3457,3.11328 1.85853,-9e-5 3.36514,-1.5067 3.36524,-3.36523 -9e-5,-1.85853 -1.50671,-3.36515 -3.36524,-3.36524 -1.70029,0.003 -3.13158,1.27297 -3.33593,2.96094 -0.60917,-0.18508 -1.28922,-0.46064 -2.01758,-0.87305 -1.51686,-0.86042 -2.85391,-2.01346 -4.53321,-3.66992 -1.37217,-1.35921 -2.79304,-2.93327 -4.38867,-4.48633 -1.2645,-1.24034 -2.6766,-2.51662 -4.39648,-3.37695 -0.0417,-0.0208 -0.0829,-0.0402 -0.125,-0.0606 -1.41242,-0.67389 -2.94311,-1.02148 -4.46094,-1.05273 z"
+                    ></path>
+                    <path
+                      transform="rotate(60,314.29295,255.93339)"
+                      style="
+                        fill: #0f969c;
+                        stroke: none;
+                        stroke-width: 0.377953;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                      "
+                      id="path99"
+                      d="m 288.8125,168.83008 c -0.50594,-0.0104 -1.0116,0.0151 -1.50976,0.0742 -2.09264,0.25254 -3.9803,1.05074 -5.53516,2.04297 -3.01928,1.91635 -4.83585,4.47765 -5.71875,6.3125 -0.002,0.003 -0.002,0.006 -0.004,0.01 -0.39698,-0.15862 -0.82054,-0.24015 -1.24804,-0.24023 -1.85853,9e-5 -3.36514,1.5067 -3.36524,3.36523 9e-5,1.85853 1.50671,3.36515 3.36524,3.36524 1.85853,-10e-5 3.36514,-1.50671 3.36523,-3.36524 -9e-5,-1.16284 -0.60048,-2.24324 -1.58789,-2.85742 1.03398,-1.69553 2.78794,-3.88513 5.76758,-5.6543 1.4754,-0.87061 3.22407,-1.56654 5.09765,-1.75781 1.76939,-0.18444 3.63073,0.11095 5.28516,0.9043 0.037,0.0175 0.0745,0.0347 0.11133,0.0527 1.51414,0.7407 2.83422,1.9377 4.10351,3.13086 1.57817,1.49506 3.04048,3.04162 4.48633,4.38477 1.74435,1.62693 3.25597,2.79534 4.91016,3.60351 0.882,0.43227 1.68392,0.67482 2.38867,0.80469 0.13162,1.75198 1.58879,3.10793 3.3457,3.11328 1.85853,-9e-5 3.36514,-1.5067 3.36524,-3.36523 -9e-5,-1.85853 -1.50671,-3.36515 -3.36524,-3.36524 -1.70029,0.003 -3.13158,1.27297 -3.33593,2.96094 -0.60917,-0.18508 -1.28922,-0.46064 -2.01758,-0.87305 -1.51686,-0.86042 -2.85391,-2.01346 -4.53321,-3.66992 -1.37217,-1.35921 -2.79304,-2.93327 -4.38867,-4.48633 -1.2645,-1.24034 -2.6766,-2.51662 -4.39648,-3.37695 -0.0417,-0.0208 -0.0829,-0.0402 -0.125,-0.0606 -1.41242,-0.67389 -2.94311,-1.02148 -4.46094,-1.05273 z"
+                    ></path>
+                  </g>
+                </pattern>
+                <clipPath clipPathUnits="userSpaceOnUse" id="clipPath67">
+                  <path
+                    d="M 0,788 H 1920 V 0 H 0 Z"
+                    transform="translate(-1036.8672,-494.57321)"
+                    id="path67-7"
+                  ></path>
+                </clipPath>
+                <clipPath clipPathUnits="userSpaceOnUse" id="clipPath69">
+                  <path
+                    d="M 0,788 H 1920 V 0 H 0 Z"
+                    transform="translate(-1172.8672,-487.43651)"
+                    id="path69-4"
+                  ></path>
+                </clipPath>
+                <clipPath clipPathUnits="userSpaceOnUse" id="clipPath71">
+                  <path
+                    d="M 0,788 H 1920 V 0 H 0 Z"
+                    transform="translate(-949.2295,-442.33111)"
+                    id="path71-4"
+                  ></path>
+                </clipPath>
+                <clipPath clipPathUnits="userSpaceOnUse" id="clipPath73">
+                  <path
+                    d="M 0,788 H 1920 V 0 H 0 Z"
+                    transform="translate(-1161.6192,-480.82711)"
+                    id="path73-3"
+                  ></path>
+                </clipPath>
+              </defs>
+              <g id="layer-MC2" transform="translate(-2620.164,-319.99965)">
+                <path
+                  id="path63-5"
+                  d="M 83.602984,-76.324266 H 32.063922 V -118.2188 h 54.480469 v -14.35547 H 14.954547 V -4.6875e-5 H 89.497516 V -14.355516 H 32.063922 V -62.156297 H 83.602984 Z M 99.927203,-95.203172 132.1772,-48.585984 98.345172,-4.6875e-5 H 117.4233 L 131.19283,-21.445359 c 3.55078,-5.695313 6.89062,-10.816407 10.03125,-16.523438 h 0.39844 c 3.33984,5.707031 6.49218,11.015625 10.23046,16.523438 L 165.82173,-4.6875e-5 H 185.4858 L 152.0522,-49.171922 l 32.44922,-46.03125 h -18.67969 l -13.38281,20.261719 c -3.14062,5.109375 -6.29297,10.03125 -9.44531,15.738281 h -0.58594 c -3.14062,-5.308594 -6.09375,-10.230469 -9.63281,-15.539062 L 119.19283,-95.203172 Z M 202.20259,38.941359 h 17.1211 v -51.726562 h 0.38672 c 5.70703,9.4453124 16.72265,14.9531249 29.30859,14.9531249 22.42969,0 43.27734,-16.9218749 43.27734,-51.1406249 0,-28.921875 -17.30859,-48.398438 -40.32421,-48.398438 -15.53907,0 -26.75391,6.890625 -33.83204,18.492188 h -0.39843 l -0.78516,-16.324219 h -15.53906 c 0.39844,9.046875 0.78515,18.878906 0.78515,31.078125 z m 17.1211,-94.019531 c 0,-2.355469 0.58594,-4.910156 1.17187,-7.078125 3.35157,-12.984375 14.36719,-21.445312 26.16797,-21.445312 18.29297,0 28.32422,16.335937 28.32422,35.414062 0,21.832031 -10.62891,36.773438 -28.92187,36.773438 -12.38672,0 -22.81641,-8.261719 -25.95704,-20.25 -0.39843,-2.167969 -0.78515,-4.523438 -0.78515,-7.089844 z m 171.32519,10.628906 c 0.1875,-1.769531 0.58594,-4.523437 0.58594,-8.074218 0,-17.496094 -8.26172,-44.847657 -39.33984,-44.847657 -27.73828,0 -44.64844,22.628907 -44.64844,51.339844 0,28.722656 17.50781,48.0000001 46.81641,48.0000001 15.14062,0 25.57031,-3.1523437 31.66406,-5.90625 l -2.95313,-12.3867191 c -6.49218,2.753907 -13.95703,4.910157 -26.35547,4.910157 -17.30859,0 -32.26171,-9.632813 -32.64843,-33.035157 z M 323.9692,-56.847703 c 1.37109,-12 9.04687,-28.125 26.55468,-28.125 19.46485,0 24.1875,17.109375 23.98828,28.125 z M 412.67134,-4.6875e-5 h 17.1211 V -50.753953 c 0,-2.941406 0.38672,-5.695313 0.78515,-8.0625 2.35547,-12.984375 11.01563,-22.21875 23.20313,-22.21875 2.36719,0 4.13672,0.1875 5.90625,0.585937 v -16.324218 c -1.57031,-0.398438 -2.95313,-0.597657 -4.92188,-0.597657 -11.60156,0 -22.03125,8.074219 -26.35546,20.859375 h -0.78516 l -0.58594,-18.691406 h -15.15234 c 0.59765,8.847656 0.78515,18.492188 0.78515,29.707031 z M 485.64986,-118.01958 v 22.816408 h -14.75391 v 13.183594 h 14.75391 v 51.925781 c 0,11.214844 1.76953,19.664063 6.69141,24.7851564 4.125,4.72265623 10.61718,7.2773437 18.67968,7.2773437 6.69141,0 12,-0.98437497 15.35157,-2.36718747 L 525.57564,-13.371141 c -2.15625,0.585938 -5.50781,1.171875 -10.03125,1.171875 -9.63281,0 -12.97266,-6.679687 -12.97266,-18.480468 v -51.339844 h 24.77344 v -13.183594 h -24.77344 v -27.339848 z m 100.29492,20.648439 c -26.35547,0 -47.20312,18.691407 -47.20312,50.554688 0,30.09375 19.86328,48.9843749 45.63281,48.9843749 23.01562,0 47.40234,-15.3515629 47.40234,-50.5546879 0,-29.109375 -18.49218,-48.984375 -45.83203,-48.984375 z m -0.38672,12.984375 c 20.44922,0 28.51172,20.460938 28.51172,36.585938 0,21.445312 -12.38672,36.984375 -28.91015,36.984375 -16.91016,0 -28.91016,-15.738281 -28.91016,-36.585938 0,-18.09375 8.84766,-36.984375 29.30859,-36.984375 z m 61.3711,79.8632816 c 6.67968,3.93750003 16.32422,6.4921875 26.74218,6.4921875 22.62891,0 35.60157,-11.8007812 35.60157,-28.5234371 0,-14.15625 -8.44922,-22.417969 -24.97266,-28.722657 -12.39844,-4.710937 -18.09375,-8.261718 -18.09375,-16.125 0,-7.078125 5.69531,-12.984375 15.92578,-12.984375 8.84766,0 15.73828,3.152344 19.47656,5.507813 l 4.32422,-12.585938 c -5.30859,-3.152343 -13.76953,-5.90625 -23.40234,-5.90625 -20.46094,0 -32.84766,12.597657 -32.84766,27.9375 0,11.402344 8.0625,20.847657 25.17188,26.941407 12.78515,4.722656 17.70703,9.246093 17.70703,17.507812 0,7.875 -5.90625,14.167969 -18.49219,14.167969 -8.66015,0 -17.70703,-3.539063 -22.8164,-6.890625 z m 0,0"
+                  style="
+                    fill: #220d01;
+                    fill-opacity: 1;
+                    fill-rule: nonzero;
+                    stroke: none;
+                  "
+                  aria-label="Expertos"
+                  transform="matrix(1.3333333,0,0,1.3333333,2600.2247,624.586)"
+                ></path>
+                <path
+                  id="path64-0"
+                  d="m 90.879983,-44.449266 c 0.1875,-1.769531 0.585937,-4.523437 0.585937,-8.074218 0,-17.496094 -8.261719,-44.847657 -39.339844,-44.847657 -27.738281,0 -44.6484372,22.628907 -44.6484372,51.339844 0,28.722656 17.5078122,48.0000001 46.8164062,48.0000001 15.140625,0 25.570313,-3.1523437 31.664063,-5.90625 L 83.004983,-16.324266 c -6.492188,2.753907 -13.957032,4.910157 -26.355469,4.910157 -17.308594,0 -32.261719,-9.632813 -32.648438,-33.035157 z M 24.200295,-56.847703 c 1.371094,-12 9.046875,-28.125 26.554688,-28.125 19.464843,0 24.1875,17.109375 23.988281,28.125 z M 112.90244,-4.6875e-5 h 17.3086 V -57.234422 c 0,-2.953125 0.39843,-5.90625 1.18359,-8.074219 2.95313,-9.632812 11.80078,-17.695312 23.21484,-17.695312 16.32422,0 22.03125,12.785156 22.03125,28.125 V -4.6875e-5 h 17.3086 V -56.847703 c 0,-32.648438 -20.46094,-40.523438 -33.64453,-40.523438 -15.72657,0 -26.74219,8.859375 -31.46485,17.90625 h -0.39843 l -0.98438,-15.738281 h -15.33984 c 0.59765,7.863281 0.78515,15.9375 0.78515,25.769531 z m 0,0"
+                  style="
+                    fill: #220d01;
+                    fill-opacity: 1;
+                    fill-rule: nonzero;
+                    stroke: none;
+                  "
+                  aria-label=" en "
+                  transform="matrix(1.3333333,0,0,1.3333333,3612.0181,624.586)"
+                ></path>
+                <path
+                  id="path65"
+                  d="M 130.02035,-4.6875e-5 H 146.743 L 138.48128,-132.57427 h -21.83203 l -23.61328,64.125004 c -5.894531,16.722657 -10.617187,31.277344 -13.957031,44.648438 H 78.481283 C 75.141439,-37.570359 70.618002,-52.125047 65.110189,-68.449266 L 42.493002,-132.57427 H 20.649252 L 11.414877,-4.6875e-5 H 27.739095 L 31.278158,-56.847703 c 1.183594,-19.863281 2.15625,-42.09375 2.554687,-58.617187 h 0.398438 c 3.738281,15.738281 9.046875,32.847656 15.339844,51.539062 L 71.00472,-0.78520312 H 83.989095 L 107.40316,-65.109422 c 6.67969,-18.292969 12.1875,-34.816406 16.71094,-50.355468 h 0.59765 c -0.19922,16.523437 0.98438,38.753906 1.96875,57.246093 z M 252.75667,-95.203172 h -17.30859 v 58.417969 c 0,3.152344 -0.58594,6.292969 -1.57031,8.859375 -3.15235,7.664062 -11.21485,15.726562 -22.81641,15.726562 -15.73828,0 -21.24609,-12.1875 -21.24609,-30.292968 v -52.710938 h -17.3086 v 55.664063 c 0,33.4453121 17.89453,41.7070309 32.84766,41.7070309 16.92187,0 26.95312,-10.03125 31.47656,-17.7070309 h 0.38672 l 0.98438,15.539062125 h 15.33984 C 252.95589,-7.4766094 252.75667,-16.125047 252.75667,-25.968797 Z m 93.62696,-44.449218 v 56.847656 h -0.38672 c -4.32422,-7.675782 -14.16797,-14.566407 -28.72266,-14.566407 -23.20312,0 -42.8789,19.476563 -42.67969,51.152344 0,28.910156 17.69532,48.3867189 40.71094,48.3867189 15.53906,0 27.15235,-8.0742188 32.46094,-18.6914059 h 0.38672 L 348.95003,-4.6875e-5 H 364.4891 C 363.89144,-6.4922344 363.69222,-16.125047 363.69222,-24.585984 V -139.65239 Z m 0,99.726562 c 0,2.753906 -0.1875,5.109375 -0.78516,7.464844 -3.14062,12.984375 -13.76953,20.660156 -25.37109,20.660156 -18.69141,0 -28.125,-15.9375 -28.125,-35.214844 0,-21.046875 10.61718,-36.773437 28.52343,-36.773437 12.97266,0 22.41797,9.046875 24.97266,20.0625 0.59766,2.15625 0.78516,5.109375 0.78516,7.277343 z M 460.86117,-4.6875e-5 C 459.68929,-6.4922344 459.29085,-14.554734 459.29085,-22.816453 v -35.601563 c 0,-19.078125 -7.07812,-38.953125 -36.1875,-38.953125 -12,0 -23.41406,3.351563 -31.27734,8.460938 l 3.9375,11.414062 c 6.67969,-4.335937 15.92578,-7.089843 24.78516,-7.089843 19.46484,0 21.63281,14.167968 21.63281,22.03125 v 1.96875 c -36.78516,-0.199219 -57.2461,12.398437 -57.2461,35.414062 0,13.757813 9.84375,27.3398439 29.1211,27.3398439 13.57031,0 23.80078,-6.6914063 29.10937,-14.1679689 h 0.58594 L 445.1346,-4.6875e-5 Z M 442.5682,-32.062547 c 0,1.769531 -0.38672,3.738281 -0.97266,5.507813 -2.75391,8.0625 -10.62891,15.9375 -23.01562,15.9375 -8.85938,0 -16.32422,-5.320313 -16.32422,-16.523438 0,-18.492187 21.43359,-21.832031 40.3125,-21.445312 z M 487.21956,-4.6875e-5 h 17.3086 V -57.234422 c 0,-2.953125 0.39844,-5.90625 1.18359,-8.074219 2.95313,-9.632812 11.80078,-17.695312 23.21485,-17.695312 16.32421,0 22.03125,12.785156 22.03125,28.125 V -4.6875e-5 h 17.30859 V -56.847703 c 0,-32.648438 -20.46094,-40.523438 -33.64453,-40.523438 -15.72656,0 -26.74219,8.859375 -31.46485,17.90625 h -0.39843 l -0.98438,-15.738281 h -15.33984 c 0.59765,7.863281 0.78515,15.9375 0.78515,25.769531 z m 98.35254,0 h 77.3086 V -13.769578 h -55.67578 v -0.398438 c 4.33593,-4.910156 8.26171,-9.632812 12.19921,-14.941406 l 42.49219,-55.277344 0.1875,-10.816406 H 589.5096 v 13.96875 h 51.53907 v 0.386719 c -4.33594,5.121094 -8.26172,9.644531 -12.39844,14.753906 l -43.07813,56.0625 z m 163.45313,0 C 747.85335,-6.4922344 747.45492,-14.554734 747.45492,-22.816453 v -35.601563 c 0,-19.078125 -7.07813,-38.953125 -36.1875,-38.953125 -12,0 -23.41407,3.351563 -31.27735,8.460938 l 3.9375,11.414062 c 6.67969,-4.335937 15.92578,-7.089843 24.78516,-7.089843 19.46484,0 21.63281,14.167968 21.63281,22.03125 v 1.96875 c -36.78516,-0.199219 -57.24609,12.398437 -57.24609,35.414062 0,13.757813 9.84375,27.3398439 29.12109,27.3398439 13.57031,0 23.80078,-6.6914063 29.10938,-14.1679689 h 0.58593 L 733.29867,-4.6875e-5 Z M 730.73226,-32.062547 c 0,1.769531 -0.38672,3.738281 -0.97266,5.507813 -2.7539,8.0625 -10.6289,15.9375 -23.01562,15.9375 -8.85938,0 -16.32422,-5.320313 -16.32422,-16.523438 0,-18.492187 21.43359,-21.832031 40.3125,-21.445312 z m 37.97168,27.5390626 c 6.67969,3.93750003 16.32422,6.4921875 26.74219,6.4921875 22.6289,0 35.60156,-11.8007812 35.60156,-28.5234371 0,-14.15625 -8.44922,-22.417969 -24.97266,-28.722657 -12.39843,-4.710937 -18.09375,-8.261718 -18.09375,-16.125 0,-7.078125 5.69532,-12.984375 15.92578,-12.984375 8.84766,0 15.73829,3.152344 19.47657,5.507813 l 4.32422,-12.585938 c -5.3086,-3.152343 -13.76954,-5.90625 -23.40235,-5.90625 -20.46094,0 -32.84765,12.597657 -32.84765,27.9375 0,11.402344 8.0625,20.847657 25.17187,26.941407 12.78516,4.722656 17.70703,9.246093 17.70703,17.507812 0,7.875 -5.90625,14.167969 -18.49219,14.167969 -8.66015,0 -17.70703,-3.539063 -22.8164,-6.890625 z m 0,0"
+                  style="
+                    fill: #ff5a19;
+                    fill-opacity: 1;
+                    fill-rule: nonzero;
+                    stroke: none;
+                  "
+                  aria-label=" Mudanzas"
+                  transform="matrix(1.3333333,0,0,1.3333333,4000.1708,624.586)"
+                ></path>
+                <path
+                  id="path66-9"
+                  d="m 0,0 c 0,0 -20.74,-150.473 -0.751,-172.478 0,0 13.436,-4.94 0.751,172.478"
+                  style="
+                    fill: #ff5a19;
+                    fill-opacity: 1;
+                    fill-rule: nonzero;
+                    stroke: none;
+                  "
+                  transform="matrix(1.3333333,0,0,-1.3333333,3962.4896,391.23573)"
+                  clip-path="url(#clipPath67)"
+                ></path>
+                <path
+                  id="path68-6"
+                  d="m 0,0 c 2.676,-15.426 -7.256,-30.029 -22.184,-32.619 -14.927,-2.589 -29.198,7.817 -31.873,23.243 -2.675,15.426 7.256,30.029 22.184,32.619 C -16.945,25.832 -2.675,15.426 0,0"
+                  style="
+                    fill: #ff5a19;
+                    fill-opacity: 1;
+                    fill-rule: nonzero;
+                    stroke: none;
+                  "
+                  transform="matrix(1.3333333,0,0,-1.3333333,4143.8229,400.75133)"
+                  clip-path="url(#clipPath69)"
+                ></path>
+                <path
+                  id="path70-3"
+                  d="m 0,0 c 0,0 139.541,89.172 187.604,105.127 0,0 23.628,3.995 39.559,-9.704 0,0 61.72,-33.472 94.308,-57.677 l 36.332,-21.695 c 0,0 -113.353,45.919 -144.374,63.049 0,0 -20.516,10.043 -36.498,3.661 z"
+                  style="
+                    fill: #ff5a19;
+                    fill-opacity: 1;
+                    fill-rule: nonzero;
+                    stroke: none;
+                  "
+                  transform="matrix(1.3333333,0,0,-1.3333333,3845.6393,460.89187)"
+                  clip-path="url(#clipPath71)"
+                ></path>
+                <path
+                  id="path72-8"
+                  d="m 0,0 c 0,-11.088 -8.988,-20.075 -20.075,-20.075 -11.088,0 -20.075,8.987 -20.075,20.075 0,11.087 8.987,20.075 20.075,20.075 C -8.988,20.075 0,11.087 0,0"
+                  style="
+                    fill: #f7c6ae;
+                    fill-opacity: 1;
+                    fill-rule: nonzero;
+                    stroke: none;
+                  "
+                  transform="matrix(1.3333333,0,0,-1.3333333,4128.8255,409.56387)"
+                  clip-path="url(#clipPath73)"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <!-- An array of links for Product and Company sections -->
+          <div class="col-span-1">
+            <h3 class="font-bold text-neutral-800 dark:text-neutral-200">
+              Ecosistema
+            </h3>
+            <ul class="mt-3 grid space-y-3">
+              <li>
+                <a
+                  id="contact"
+                  href="../contact/index.html"
+                  class="inline-flex gap-x-2 rounded-lg text-neutral-600 outline-none ring-zinc-500 transition duration-300 hover:text-neutral-500 focus-visible:ring dark:text-neutral-400 dark:ring-zinc-200 dark:hover:text-neutral-300 dark:focus:outline-none"
+                >
+                  Contactos
+                </a>
+              </li>
+              <li>
+                <a
+                  id="services"
+                  href="../services/index.html"
+                  class="inline-flex gap-x-2 rounded-lg text-neutral-600 outline-none ring-zinc-500 transition duration-300 hover:text-neutral-500 focus-visible:ring dark:text-neutral-400 dark:ring-zinc-200 dark:hover:text-neutral-300 dark:focus:outline-none"
+                >
+                  Como trabajamos
+                </a>
+              </li>
+              <li>
+                <a
+                  id="services"
+                  href="../services/index.html"
+                  class="inline-flex gap-x-2 rounded-lg text-neutral-600 outline-none ring-zinc-500 transition duration-300 hover:text-neutral-500 focus-visible:ring dark:text-neutral-400 dark:ring-zinc-200 dark:hover:text-neutral-300 dark:focus:outline-none"
+                >
+                  Nuestros Servicios
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-span-1">
+            <h3 class="font-bold text-neutral-800 dark:text-neutral-200">
+              Compania
+            </h3>
+            <ul class="mt-3 grid space-y-3">
+              <li>
+                <a
+                  id="services"
+                  href="../services/index.html"
+                  class="inline-flex gap-x-2 rounded-lg text-neutral-600 outline-none ring-zinc-500 transition duration-300 hover:text-neutral-500 focus-visible:ring dark:text-neutral-400 dark:ring-zinc-200 dark:hover:text-neutral-300 dark:focus:outline-none"
+                >
+                  Nosotros
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/5930985720632?text=Hola.%20Me%20gustaria%20Cotizar%20una%20mudanza."
+                  class="inline-flex gap-x-2 rounded-lg text-neutral-600 outline-none ring-zinc-500 transition duration-300 hover:text-neutral-500 focus-visible:ring dark:text-neutral-400 dark:ring-zinc-200 dark:hover:text-neutral-300 dark:focus:outline-none"
+                >
+                  Cotiza tu mudanza
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-span-2">
+            <h3 class="font-bold text-neutral-800 dark:text-neutral-200">
+              Mantente actualizado
+            </h3>
+            <form>
+              <div
+                class="mt-4 flex flex-col items-center gap-2 rounded-lg bg-neutral-200 p-2 dark:bg-neutral-800 sm:flex-row sm:gap-3"
+              >
+                <div class="w-full">
+                  <label for="footer-input" class="sr-only">Search</label>
+                  <input
+                    type="text"
+                    id="footer-input"
+                    name="footer-input"
+                    class="block w-full rounded-lg border-transparent bg-neutral-100 px-4 py-3 text-sm text-neutral-600 focus:border-orange-400 focus:ring-orange-400 disabled:pointer-events-none disabled:opacity-50 dark:border-transparent dark:bg-neutral-700 dark:text-gray-300 dark:placeholder:text-neutral-300 caret-orange-400"
+                    placeholder="Registra tu email"
+                  />
+                </div>
+                <a
+                  class="inline-flex w-full items-center justify-center gap-x-2 whitespace-nowrap rounded-lg border border-transparent bg-orange-400 p-3 text-sm font-bold text-neutral-50 outline-none ring-zinc-500 transition duration-300 hover:bg-orange-500 focus-visible:ring disabled:pointer-events-none disabled:opacity-50 dark:ring-zinc-200 dark:focus:outline-none dark:focus:ring-1 sm:w-auto"
+                  href="#"
+                >
+                  Subscribete
+                </a>
+              </div>
+              <p class="mt-3 text-sm text-neutral-600 dark:text-neutral-400">
+                Manténgase actualizado con las últimas noticias.
+              </p>
+            </form>
+          </div>
+        </div>
+        <div
+          class="mt-9 grid gap-y-2 sm:mt-12 sm:flex sm:items-center sm:justify-between sm:gap-y-0"
+        >
+          <div class="flex items-center justify-between">
+            <p class="text-sm text-neutral-600 dark:text-neutral-400">
+              © <span id="current-year"></span> Expertos en Mudanzas. Crafted by
+              <a
+                class="rounded-lg font-medium underline underline-offset-2 outline-none ring-zinc-500 transition duration-300 hover:text-neutral-700 hover:decoration-dashed focus:outline-none focus-visible:ring dark:ring-zinc-200 dark:hover:text-neutral-300"
+                href="https://devpsyco.github.io/Devpsyco/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >DevPsyco</a
+              >.
+            </p>
+          </div>
+          <!-- Social Brands -->
+          <div>
+            <a
+              class="inline-flex h-10 w-10 items-center justify-center gap-x-2 rounded-lg border border-transparent text-sm font-bold text-neutral-700 outline-none ring-zinc-500 hover:bg-neutral-500/10 focus:outline-none focus-visible:ring focus-visible:ring-zinc-500 dark:ring-zinc-200 dark:hover:bg-neutral-50/10"
+              href="https://www.facebook.com/expertosenmudanza/?locale=es_LA"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                class="h-4 w-4 flex-shrink-0 fill-current text-neutral-700 dark:text-neutral-400"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <title>Facebook</title>
+                <path
+                  d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"
+                  class=""
+                ></path>
+              </svg>
+            </a>
+            <a
+              class="inline-flex h-10 w-10 items-center justify-center gap-x-2 rounded-lg border border-transparent text-sm font-bold text-neutral-700 outline-none ring-zinc-500 hover:bg-neutral-500/10 focus:outline-none focus-visible:ring focus-visible:ring-zinc-500 dark:ring-zinc-200 dark:hover:bg-neutral-50/10"
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                class="h-4 w-4 flex-shrink-0 fill-current text-neutral-700 dark:text-neutral-400"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <title>Twitter</title>
+                <path
+                  d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
+                  class=""
+                ></path>
+              </svg>
+            </a>
+            <a
+              class="inline-flex h-10 w-10 items-center justify-center gap-x-2 rounded-lg border border-transparent text-sm font-bold text-neutral-700 outline-none ring-zinc-500 hover:bg-neutral-500/10 focus:outline-none focus-visible:ring focus-visible:ring-zinc-500 dark:ring-zinc-200 dark:hover:bg-neutral-50/10"
+              href="https://github.com/Expertos-en-mudanzas/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                class="h-4 w-4 flex-shrink-0 fill-current text-neutral-700 dark:text-neutral-400"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <title>GitHub</title>
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                  class=""
+                ></path>
+              </svg>
+            </a>
+            <a
+              class="inline-flex h-10 w-10 items-center justify-center gap-x-2 rounded-lg border border-transparent text-sm font-bold text-neutral-700 outline-none ring-zinc-500 hover:bg-neutral-500/10 focus:outline-none focus-visible:ring focus-visible:ring-zinc-500 dark:ring-zinc-200 dark:hover:bg-neutral-50/10"
+              href="https://www.google.com/search?q=%22https%3A%2F%2Fexpertos-en-mudanzas.github.io%2Fexpertos-ec%2F%22&oq=%22https%3A%2F%2Fexpertos-en-mudanzas.github.io%2Fexpertos-ec%2F%22&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQLhhA0gEINDc3M2owajGoAgCwAgA&sourceid=chrome&ie=UTF-8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                class="h-4 w-4 flex-shrink-0 fill-current text-neutral-700 dark:text-neutral-400"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <title>Google</title>
+                <path
+                  d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"
+                  class=""
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <script type="module">
+          const e = new Date().getFullYear(),
+            t = document.getElementById("current-year");
+          t.innerText = e.toString();
+        </script>
+      </div>
+    </footer>
+  </body>
+</html>
