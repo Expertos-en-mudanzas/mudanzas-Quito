@@ -34,7 +34,10 @@ We set the language of the page to English and add classes for scrollbar and scr
       content="Mudanzas Quito - Expertos en mudanzas. Empresa profesional de embalaje, transporte y montaje. Mudanzas locales e internacionales. ¡Cotiza ahora!"
       name="description"
     />
-    <meta name="keywords" content="mudanzas Quito, embalaje profesional, transporte, montaje de muebles, mudanzas locales, mudanzas internacionales, expertos en mudanzas" />
+    <meta
+      name="keywords"
+      content="mudanzas Quito, embalaje profesional, transporte, montaje de muebles, mudanzas locales, mudanzas internacionales, expertos en mudanzas"
+    />
     <meta name="DevPsyco" content="DevPsyco" />
     <meta
       name="viewport"
@@ -80,13 +83,21 @@ We set the language of the page to English and add classes for scrollbar and scr
       name="twitter:description"
       content="Mudanzas Quito - Expertos en mudanzas. Empresa de mudanzas profesionales. Ofrecemos servicios de embalaje, transporte y montaje de muebles. Mudanzas locales, nacionales e internacionales. ¡Cotiza ahora y disfruta de una mudanza sin estrés!"
     />
-    <meta name="twitter:image" content="https://expertos-en-mudanzas.github.io/mudanzas-Quito/recursos/logo-completo.BBo7OkdA_1WaPjl.webp" />
+    <meta
+      name="twitter:image"
+      content="https://expertos-en-mudanzas.github.io/mudanzas-Quito/recursos/logo-completo.BBo7OkdA_1WaPjl.webp"
+    />
     <!-- Links to the webmanifest and sitemap -->
     <link rel="manifest" href="manifest.json" />
     <!-- https://docs.astro.build/en/guides/integrations-guide/sitemap/ -->
     <link rel="sitemap" href="/sitemap-index.xml" />
     <!-- Links for favicons -->
-    <link href="recursos/caja-logo.BWhjgQv4_Z1rMwmU.svg" rel="icon" sizes="any" type="image/x-icon" />
+    <link
+      href="recursos/caja-logo.BWhjgQv4_Z1rMwmU.svg"
+      rel="icon"
+      sizes="any"
+      type="image/x-icon"
+    />
     <link
       href="recursos/caja-logo.BWhjgQv4_Z1rMwmU.svg"
       rel="icon"
@@ -99,7 +110,12 @@ We set the language of the page to English and add classes for scrollbar and scr
     <!-- Set theme color -->
     <meta name="theme-color" content="#facc15" />
     <!-- Define the title of the page -->
-    <title>Expertos en Mudanzas - Empresa de mudanzas profesionales. Ofrecemos servicios de embalaje, transporte y montaje de muebles. Mudanzas locales, nacionales e internacionales. ¡Cotiza ahora y disfruta de una mudanza sin estrés!</title>
+    <title>
+      Expertos en Mudanzas - Empresa de mudanzas profesionales. Ofrecemos
+      servicios de embalaje, transporte y montaje de muebles. Mudanzas locales,
+      nacionales e internacionales. ¡Cotiza ahora y disfruta de una mudanza sin
+      estrés!
+    </title>
     <script>
       // Script to handle dark mode. It will check if the theme is stored in localStorage or if dark theme is preferred by system settings
       if (
@@ -145,6 +161,20 @@ We set the language of the page to English and add classes for scrollbar and scr
       }
     </style>
     <script type="module" src="recursos/page.C1i_5bqm.js"></script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-P7WQGNSM");
+    </script>
+    <!-- End Google Tag Manager -->
   </head>
   <body
     class="astro-ouamjn2i bg-neutral-200 selection:bg-yellow-400 selection:text-neutral-700 dark:bg-neutral-800"
@@ -2856,4 +2886,14 @@ If URL is '/' (home page), assign ID as 'home'
       </div>
     </footer>
   </body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript
+    ><iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-P7WQGNSM"
+      height="0"
+      width="0"
+      style="display: none; visibility: hidden"
+    ></iframe
+  ></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 </html>
